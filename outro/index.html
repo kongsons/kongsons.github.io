@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width",initial-scale="1">
+  	<title>kongson</title>
+  	<link rel="stylesheet" href="css/bootstrap.css">
+  	<link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+  <body>
+  	   <style type="text/css">
+  	   	  .jumbotron{
+  	   	  	  background-image: url('images/jumbotronBackground.jpg');
+  	   	  	  background-size: cover;
+  	   	  	  text-shadow: black 0.2em 0.2em 0.2em;
+  	   	  	  color: white;
+  	   	  }
+  	   	</style>
+  	   	<nav class="navbar navbar-default">
+  	   		<div class="container-fluid">
+  	   			<div class="navbar-header">
+  	   				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+  	   				    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+  	   				    <span class="sr-only"></span>
+  	   				    <span class="icon-bar"></span>
+  	   				    <span class="icon-bar"></span>
+  	   				    <span class="icon-bar"></span>
+  	   		        </button>
+  	   		        <a class="navbar-brand" href="index.html">keyboard</a>
+  	   		    </div>
+  	   		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  	   		    	<ul class="nav navbar-nav">
+  	   		    		<li class="dropdown">
+  	   		    	    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button"
+  	   		    			    aria-haspopup="true" aria-expanded="false">소개<span class="caret"></span></a>
+  	   		    			<ul class="dropdown-menu">
+  	   		    				<li><a href="lecture.html?lectureName=keyboard">키보드</a></li>
+  	   		    				<li><a href="lecture.html?lectureName=switch">스위치</a></li>
+  	   		    				<li><a href="lecture.html?lectureName=stablizer">스테빌라이저</a></li>
+  	   		    	        </ul>
+  	   		            </li>
+  	   		            </li>
+  	   		    		<li class="active"><a href="#">아직 미정입니다<span class="sr-only"></span></a></li>
+  	   		    		<li><a href="instructor.html">콩손이란 누구인가?</a></li>
+  	   		        </ul>
+  	   		    <ul class="nav navbar-nav navbar-right">
+  	   		    	<li class="dropdown">
+  	   		    		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+  	   		    			    aria-haspopup="true" aria-expanded="false">접속하기<span class="caret"></span></a>
+  	   		    			    <ul class="dropdown-menu">
+  	   		    			    	<li><a href="loginform.html">로그인</a></li>
+  	   		    			    	<li><a href="registerform.html">회원가입</a></li>
+  	   		    			    </ul>
+  	   		    	</li>
+  	   	        </ul>
+  	   	          <form class="navbar-form navbar-right">
+  	   		    	<div class="form-group">
+  	   		    		<input type="text" class="form-control" placeholder="내용을 입력하세요.">
+  	   		    	</div>
+  	   		    	<button type="submit" class="btn btn-default">검색</button>
+  	   		    </form>
+  	   	        </div>
+  	   	    </div>
+        </nav>
+    
+        <div class="container">
+       	   <div class="jumbotron">
+       	   	 <h1 class="text-center">keyboard을 소개합니다.</h1>
+       	   	 <p class="text-center">키보드는 단순한 입력 장치가 아닙니다.</p>
+       	   	 <p class="text-center"><a class="btn btn-primary btn-lg" href="https://heroesofthestorm.com/ko-kr/" role="button">시공의 폭풍 속으로</a></p>
+       	   	</div>
+
+       	   	<div class="row">
+       	   	    <div class="col-md-4">
+       	   		    <h4>키보드의 특징</h4>
+       	   		    <p>키보드는 말그대로 입력 장치지만 우리는 그 입력장치에서 즐거움을 찾을려고 합니다</p>
+       	   		    <p><a class="btn btn-default" data-target="#modal1" data-toggle="modal">자세히 알아보기</a></p>
+       	   		 
+       	     	</div>
+       	     	<div class="col-md-4">
+       	   		        <h4>스테빌라이저의 특징</h4>
+       	   		        <p>보통 키보드에서 긴 키들을 누를때 자연스럽게 눌릴수 있도록 도와줍니다</p>
+       	   		        <p><a class="btn btn-default" data-target="#modal2" data-toggle="modal">자세히 알아보기</a></p>
+       	   		 </div>
+       	   		<div class="col-md-4">
+       	   		    <h4>스위치의 특징</h4>
+       	   		    <p>보통 기계식 스위치는 접점부와 슬라이더 스프링으로 이루어져 있습니다</p>
+       	   		    <p><a class="btn btn-default" data-target="#modal3" data-toggle="modal">자세히 알아보기</a></p>
+       	   		</div>    
+       	   	  </div>
+       	    <hr>
+       	    <div class="panel panel-primary">
+       		<div class="panel-heading">
+       			<h3 class="panel-title"><span class="glyphicon glyphicon-pencil"></span>
+       		    &nbsp;&nbsp;최신 키보드 목록</h3>
+       	    </div>
+       	    <div class="panel-body">
+       	    	<div class="media">
+       	    		<div class="media-left">
+       	    		    <a href="lecture.html?lectureName=keyboard"><img src="images/monster.jpg" id="imagepreview" style="width: 90px; height: 64px;" alt="키보드 강의 이미지"></a>
+       	    		</div>
+       	    		<div class="media-body">
+       	    			<h4 class="media-heading"><a href="lecture.html?lectureName=keyboard">키보드 기초 강의</a>&nbsp;<span class="badge">New</span></h4>
+       	    			키보드는 종류가 매우 많고 생각보다 복잡합니다 사실상 기초 강의하나로는 이해하기 어려울수도 있는점 참고하시기 바랍니다.
+       	    	</div>
+       	    </div>
+       	    <hr>
+       	    <div class="media">
+       	    		<div class="media-left">
+       	    		    <a href="lecture.html?lectureName=switch"><img src="images/monster.jpg" id="imagepreview" style="width: 90px; height: 64px;" alt="키보드 강의 이미지"></a>
+       	    		</div>
+       	    		<div class="media-body">
+       	    			<h4 class="media-heading"><a href="lecture.html?lectureName=switch">스위치 기초 강의</a>&nbsp;<span class="badge">New</span></h4>
+       	    			스위치는 종류가 매우 많지만 구조는 생각보다 간단합니다. 물론 스위치 제각각 구조도 다 다르다는점 참고하시기 바랍니다.
+       	    	</div>
+       	    </div>
+       	    <hr>
+       	    <div class="media">
+       	    		<div class="media-left">
+       	    		    <a href="lecture.html?lectureName=stablizer">
+       	    		    	<img class="media-object" src="images/monster.jpg" id="imagepreview" style="width: 90px; height: 64px;" alt="키보드 강의 이미지"></a>
+       	    		</div>
+       	    		<div class="media-body">
+       	    			<h4 class="media-heading"><a href="lecture.html?lectureName=stablizer">스테빌라이저 기초 강의</a>&nbsp;<span class="badge">New</span></h4>
+       	    			스테빌라이저는 생각보다 종류가 한정되어 있습니다
+       	    	    </div>
+       	        </div>
+       	      </div>
+       	    </div>		
+       	    			
+       	<footer style="background-color: #000000; color: #ffffff">
+       		<div class="container">
+       			<br>
+       			<div class="row">
+       			    <div class="col-sm-2" style="text-align: center;"><h5>Copyright &copy; 2019</h5><h5>콩손(kongson)</h5></div>
+       			    <div class="col-sm-3"><h4>매니저 소개</h4><p>매니저는 바로 잼으로 특징은 딸기잼을 좋아한다</p></div>
+       			    <div class="col-sm-2"><h4 style="text-align: center;">스테빌라이저</h4>
+       			    	<div class="list-group">
+       			    		<a href="#" class="list-group-item">소개</a>
+       			    		<a href="https://www.youtube.com/watch?v=zeSRfcy3HkA" class="list-group-item">윤활법</a>
+       			    		<a href="#" class="list-group-item">장착법</a>
+       			    	</div>
+       			    </div>
+       			    <div class="col-sm-2"><h4 style="text-align: center;">스위치</h4>
+       			    	<div class="list-group">
+       			    		<a href="#" class="list-group-item">소개</a>
+       			    		<a href="https://www.youtube.com/watch?v=j1X0sDiNEtk" class="list-group-item">윤활법</a>
+       			    		<a href="#" class="list-group-item">종류</a>
+       			    	</div>
+       			    </div>
+       			    <div class="col-sm-2"><h4 style="text-align: center;">SNS</h4>
+       			    	<div class="list-group">
+       			    		<a href="https://www.facebook.com" class="list-group-item">페이스북</a>
+       			    		<a href="https://www.youtube.com/channel/UCwffZtUBOo73OPm9ytUksYw" class="list-group-item">유튜브</a>
+                        </div>
+       			    </div>
+       			    <div class="col-sm-2"><h4 style="text-align: center;"><span class="glyphicon glyphicon-ok"></span>by 콩손</h4></div>
+                </div>
+            </div>
+        </footer>
+        <div class="row">
+        	<div class="modal" id="modal1" tabindex="-1">
+        		<div class="modal-dialog">
+        			<div class="modal-content">
+        				<div class="modal-header">
+        					키보드의 특징
+        					<button class="close" data-dismiss="modal">&times;</button>
+        				</div>
+        				<div class="modal-body" style="text-align: center;">
+        					보통 사람들의 키보드에 대한 인식은 단순 입력장치에 불과합니다<br>
+        					그리고 그 키보드에 돈을 투자하고 꾸미는것을 마땅해 하지 않습니다<br>
+        					저는 그것에 대해 불만이 많습니다!<br><br>
+        					<img src="images/monster.jpg" id="imagepreview" style="width: 455px; height: 256px;">
+        			    </div>
+        			</div>
+        	    </div>
+        	</div>
+        </div>
+        <div class="row">
+        	<div class="modal" id="modal2" tabindex="-1">
+        		<div class="modal-dialog">
+        			<div class="modal-content">
+        				<div class="modal-header">
+        					키보드의 특징
+        					<button class="close" data-dismiss="modal">&times;</button>
+        				</div>
+        				<div class="modal-body" style="text-align: center;">
+        					보통 큰 키를 누를때 뭔가 철심소리가 들리실 겁니다<br>
+        					큰 키들의 아예 좌측 혹은 우측을 눌러보시면 더 잘 들리고 느낌도 사뭇 다릅니다<br>
+        					그게 바로 스테빌라이저라는 부품이 있어서 입니다<br><br>
+        					<img src="images/monster.jpg" id="imagepreview" style="width: 455px; height: 256px;">
+        			    </div>
+        			</div>
+        	    </div>
+        	</div>
+        </div>
+        <div class="row">
+        	<div class="modal" id="modal3" tabindex="-1">
+        		<div class="modal-dialog">
+        			<div class="modal-content">
+        				<div class="modal-header">
+        					키보드의 특징
+        					<button class="close" data-dismiss="modal">&times;</button>
+        				</div>
+        				<div class="modal-body" style="text-align: center;">
+        					기계식 스위치는 종류가 매우 많습니다<br>
+        					보통 접점부와 슬라이더로 이루어져 있습니다<br>
+        					우리나라에서 대중적인 스위치로는 오테뮤와 체리가 있습니다<br><br>
+        					<img src="images/monster.jpg" id="imagepreview" style="width: 455px; height: 256px;">
+        			    </div>
+        			</div>
+        	    </div>
+        	</div>
+        </div>
+    </div>
+        
+      	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+       	<script src="js/bootstrap.js"></script>
+  </body>
+</html>
