@@ -3,9 +3,12 @@
   <head>
   	<meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width",initial-scale="1">
-  	<title>kongson</title>
+  	<title>키보드란 무엇일까?</title>
   	<link rel="stylesheet" href="css/bootstrap.css">
   	<link rel="stylesheet" href="css/stylesheet.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="415362883322-7m9emq1blo0ndmrors895v1naq11c1ql.apps.googleusercontent.com.apps.googleusercontent.com">
+    
   </head>
   <body>
     <style type="text/css">
@@ -22,48 +25,8 @@
   border-color: #fff;
   text-align:center;
 }
-.panel-login>.panel-heading a{
-  text-decoration: none;
-  color: #666;
-  font-weight: bold;
-  font-size: 15px;
-  -webkit-transition: all 0.1s linear;
-  -moz-transition: all 0.1s linear;
-  transition: all 0.1s linear;
-}
-.panel-login>.panel-heading a.active{
-  color: #029f5b;
-  font-size: 18px;
-}
-.panel-login>.panel-heading hr{
-  margin-top: 10px;
-  margin-bottom: 0px;
-  clear: both;
-  border: 0;
-  height: 1px;
-  background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
-  background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
-  background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
-  background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
-}
-.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
-  height: 45px;
-  border: 1px solid #ddd;
-  font-size: 16px;
-  -webkit-transition: all 0.1s linear;
-  -moz-transition: all 0.1s linear;
-  transition: all 0.1s linear;
-}
-.panel-login input:hover,
-.panel-login input:focus {
-  outline:none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  border-color: #ccc;
-}
 .btn-login {
-  background-color: #59B2E0;
+  background-color: #1CB94E;
   outline: none;
   color: #fff;
   font-size: 14px;
@@ -73,22 +36,6 @@
   text-transform: uppercase;
   border-color: #59B2E6;
 }
-.btn-login:hover,
-.btn-login:focus {
-  color: #fff;
-  background-color: #53A3CD;
-  border-color: #53A3CD;
-}
-.forgot-password {
-  text-decoration: underline;
-  color: #888;
-}
-.forgot-password:hover,
-.forgot-password:focus {
-  text-decoration: underline;
-  color: #666;
-}
-
 .btn-register {
   background-color: #1CB94E;
   outline: none;
@@ -100,60 +47,62 @@
   text-transform: uppercase;
   border-color: #1CB94A;
 }
-.btn-register:hover,
-.btn-register:focus {
-  color: #fff;
-  background-color: #1CA347;
-  border-color: #1CA347;
-}
      </style> 
   	   	<nav class="navbar navbar-default">
-  	   		<div class="container-fluid">
-  	   			<div class="navbar-header">
-  	   				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-  	   				    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-  	   				    <span class="sr-only"></span>
-  	   				    <span class="icon-bar"></span>
-  	   				    <span class="icon-bar"></span>
-  	   				    <span class="icon-bar"></span>
-  	   		        </button>
-  	   		        <a class="navbar-brand" href="index.html">kongson</a>
-  	   		    </div>
-  	   		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-  	   		    	<ul class="nav navbar-nav">
-  	   		    		<li class="active"><a href="#">소개<span class="sr-only"></span></a></li>
-  	   		    		<li><a href="instructor.html">키보드</a></li>
-  	   		    		<li class="dropdown">
-  	   		    	    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button"
-  	   		    			    aria-haspopup="true" aria-expanded="false">콩손<span class="caret"></span></a>
-  	   		    			<ul class="dropdown-menu">
-  	   		    				<li><a href="lecture.html?lectureName=keyboard">키보드</a></li>
-  	   		    				<li><a href="lecture.html?lectureName=switch">스위치</a></li>
-  	   		    				<li><a href="lecture.html?lectureName=stablizer">스테빌라이저</a></li>
-  	   		    	</ul>
-  	   		    </li>
-  	   		    </li>
-  	   		    </ul>
-  	   		    <form class="navbar-form navbar-left">
-  	   		    	<div class="form-group">
-  	   		    		<input type="text" class="form-control" placeholder="내용을 입력하세요.">
-  	   		    	</div>
-  	   		    	<button type="submit" class="btn btn-default">검색</button>
-  	   		    </form>
-  	   		    <ul class="nav navbar-nav navbar-right">
-  	   		    	<li class="dropdown">
-  	   		    		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-  	   		    			    aria-haspopup="true" aria-expanded="false">접속하기<span class="caret"></span></a>
-  	   		    			    <ul class="dropdown-menu">
-  	   		    			    	<li><a href="loginform.html">로그인</a></li>
-  	   		    			    	<li><a href="registerform.html">회원가입</a></li>
-  	   		    			    </ul>
-  	   		    	</li>
-  	   	          </ul>
-  	   	        </div>
-  	   	    </div>
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">keyboard</a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false">소개<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="lecture.html">키보드</a></li>
+                      <li><a href="lecture2.html">스위치</a></li>
+                      <li><a href="lecture3.html">스테빌라이저</a></li>
+                      <li><a href="lecture4.html">키캡</a></li>
+                      <li><a href="lecture5.html">보강판</a></li>
+                      <li><a href="lecture6.html">하우징</a></li>
+
+                        </ul>
+                      </li>
+                      </li>
+                  <li class="active"><a href="http://www.kongson.kro.kr/index.html">인트로<span class="sr-only"></span></a></li>
+                  <li><a href="lecture.html">키보드 강의</a></li>
+                  <li><a href="made.html">제작 과정</a></li>
+                  <li><a href="instructor.html">콩손이란 누구인가?</a></li>
+                  </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false">접속하기<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="loginform.html">로그인</a></li>
+                          <li><a href="registerform.html">회원가입</a></li>
+                        </ul>
+                </li>
+                </ul>
+                  <form class="navbar-form navbar-right">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="내용을 입력하세요.">
+                </div>
+                <button type="submit" class="btn btn-default">검색</button>
+              </form>
+                </div>
+            </div>
         </nav>
+
   <div class="container">
+
       <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="panel panel-login">
@@ -171,7 +120,9 @@
           <div class="panel-body">
             <div class="row">
               <div class="col-lg-12">
-                <form id="login-form" action="https://phpoll.com/login/process" method="post" role="form" style="display: block;">
+
+
+                <form id="login-form" method="post" role="form" style="display: block;">
                   <div class="form-group">
                     <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="아이디" value="">
                   </div>
@@ -199,7 +150,7 @@
                     </div>
                   </div>
                 </form>
-                <form id="register-form" action="https://phpoll.com/register/process" method="post" role="form" style="display: none;">
+                <form id="register-form"  method="post" role="form" style="display: none;">
                   <div class="form-group">
                     <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="아이디" value="">
                   </div>
@@ -215,7 +166,7 @@
                   <div class="form-group">
                     <div class="row">
                       <div class="col-sm-6 col-sm-offset-3">
-                        <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="회원가입 하세요!">
+                        <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="회원가입">
                       </div>
                     </div>
                   </div>
@@ -224,37 +175,29 @@
             </div>
           </div>
         </div>
+      
+    
+  
+        
       </div>
     </div>
-  </div>
-    
+    </div>
        	<footer style="background-color: #000000; color: #ffffff">
-       		<div class="container">
-       			<br>
-       			<div class="row">
-       			    <div class="col-sm-2" style="text-align: center;"><h5>Copyright &copy; 2019</h5><h5>콩손(kongson)</h5></div>
-       			    <div class="col-sm-4"><h4>매니저 소개</h4><p>매니저는 바로 잼으로 특징은 딸기잼을 좋아한다</p></div>
-       			    <div class="col-sm-2"><h4 style="text-align: center;">스테빌라이저</h4>
-       			    	<div class="list-group">
-       			    		<a href="#" class="list-group-item">소개</a>
-       			    		<a href="https://www.youtube.com/watch?v=zeSRfcy3HkA" class="list-group-item">윤활법</a>
-       			    		<a href="#" class="list-group-item">장착법</a>
-       			    	</div>
-       			    </div>
-       			    <div class="col-sm-2"><h4 style="text-align: center;">스위치</h4>
-       			    	<div class="list-group">
-       			    		<a href="#" class="list-group-item">소개</a>
-       			    		<a href="https://www.youtube.com/watch?v=j1X0sDiNEtk" class="list-group-item">윤활법</a>
-       			    		<a href="#" class="list-group-item">종류</a>
-       			    	</div>
-       			    </div>
-       			    <div class="col-sm-2"><h4 style="text-align: center;">SNS</h4>
-       			    	<div class="list-group">
-       			    		<a href="https://www.facebook.com" class="list-group-item">페이스북</a>
-       			    		<a href="https://www.youtube.com/channel/UCwffZtUBOo73OPm9ytUksYw" class="list-group-item">유튜브</a>
+          <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-sm-2" style="text-align: center;"><h5>Copyright &copy; 2019</h5><h5>콩손(kongson)</h5></div>
+                <div class="col-sm-2"><h4>같이 도와준 지인분</h4><p>Ubuntu 18.04.04 LTS</p></div>
+                <div class="col-sm-2"><h4 style="text-align: center;">SNS</h4>
+                  <div class="list-group">
+                    <a href="https://www.facebook.com" class="list-group-item">페이스북</a>
+                    <a href="https://www.youtube.com/channel/UCwffZtUBOo73OPm9ytUksYw" class="list-group-item">유튜브</a>
                         </div>
-       			    </div>
-       			    <div class="col-sm-2"><h4 style="text-align: center;"><span class="glyphicon glyphicon-ok"></span>by 콩손</h4></div>
+                </div>
+
+                <div class="col-sm-2"><h4>문의 메일</h4><p>swoojin1126@naver.com</p><p>swoojin1127@gmail.com</p></div>
+                <div class="col-sm-2"><h4>사이트 공지</h4><p>해당 사이트는 상업 목적으로 만든 사이트가 아님을 알립니다</p></div>
+                <div class="col-sm-2"><h4 ><span class="glyphicon glyphicon-ok"></span>by 콩손</h4></div>
                 </div>
             </div>
         </footer>
