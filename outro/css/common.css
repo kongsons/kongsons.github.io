@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/* initialization */
+body,div,form,fieldset,legend,input,textarea,button{margin:0;padding:0}
+body{text-align:left;background:#fff;font-size:12px;font-family:Dotum,"돋움",gulim,"굴림",AppleGothic,Helvetica,Sans-serif;*word-break:break-all;-ms-word-break:break-all;}
+input,select,textarea,button{font-size:12px;font-family:Dotum,"돋움",gulim,"굴림",AppleGothic,Helvetica,Sans-serif;}
+
+/* common */
+fieldset,img{border:0 none}
+hr{display:none;}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+
+.screen_out{display:block;overflow:hidden;position:absolute;left:-9999px;width:1px;height:1px;font-size:0;line-height:0;text-indent:-9999px;clear:both;}
+.screen_behind{overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent:-9999px}
+
+/* skip_navigation */
+#skip_navigation{position:relative;top:-7px;z-index:12345678}
+#skip_navigation a{position:absolute;left:0;top:-35px;width:120px;background:#000;border:1px solid #0375e0;text-align:center;outline:0}
+#skip_navigation a:active,#skip_navigation a:focus{top:0;text-decoration:none;cursor:pointer;zoom:1}
+#skip_navigation span{display:inline-block;padding:0px 0 0 0;background:#000;font-size:11px;letter-spacing:-1px;color:#fff;line-height:24px;}
+
+.row{
+clear:left;  /* Clears each row */
+overflow:hidden; /* Triggers block formatting */
+*zoom:1; /* For IE 6/7 (trigger hasLayout) */
+_overflow:visible;  /* for IE6 */
+}
+
+.w_1col{width:100%;}
+.w_2col{float:left;width:50%;}
+.w_3col{float:left;width:33.3%;}
+.w_3col_last{float:left;width:33.4%;}
+.w_4col{float:left;width:25%}

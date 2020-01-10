@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<title>커스텀 키보드의 시작!</title>
+
+<meta content="width=1110" name="viewport" />
+<meta name="Title" content="커스텀 키보드의 시작!" />
+<meta name="Description" content="커스텀 키보드에 한발짝 다가갈 수 있도록 노력하겠습니다!" />
+<meta name="Keywords" content="가격비교, 상품 추천, 가격비교사이트, 다나와, 가격비교 싸이트, 가격 검색, 최저가, 추천, 인터넷쇼핑, 온라인쇼핑, 쇼핑, 쇼핑몰, 싸게 파는 곳, 지식쇼핑" />
+
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/navigation.css" />
+<link rel="stylesheet" type="text/css" href="css/shopkeyboard.css" />
+<link rel="stylesheet" type="text/css" href="css/setkeyboard.css" />
+<link rel="stylesheet" type="text/css" href="css/estimate_main.css" />
+<link rel="stylesheet" type="text/css" href="css/estimate_renew.css" />
+
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.7.2.custom.js"></script>
+
+			<script type="text/javascript" src="js/numberToComma.js"></script>
+			<script type="text/javascript" src="js/estimateWishProcess.js"></script>
+			<script type="text/javascript" src="js/popupInfo.js"></script>
+		
+				<script type="text/javascript" src="js/estimateMainWish.js"></script>
+			</head>
+<body>
+
+<div class="middle_right_content">
+	<!-- sale_house_check -->
+	<!-- <div class="sale_house_check">
+		<ul>
+			 <1-- check_on: 선택상태, chekc_off: 선택안된상태 , 첫번째 li: class="first" --
+			<li id="paymentSeq_2" class="check_on first">
+				<div class="shc_tap">
+					<a href="javascript:changePaymentMethod(2);" onmousedown="_trkEventLog('PC견적메인_장바구니_현금최저가탭')">현금 최저가</a>
+				</div>
+			</li>
+			<li id="paymentSeq_1" class="check_off">
+				<div class="shc_tap">
+					<a href="javascript:changePaymentMethod(1);" onmousedown="_trkEventLog('PC견적메인_장바구니_카드최저가탭')">카드 최저가</a>
+				</div>
+			</li>
+		</ul>
+	</div> -->
+	<!--// sale_house_check -->
+
+	<form method="post" name="wishForm" id="wishForm" action="?controller=estimateMain&methods=wishSave" target="ifrFormSumit">
+				<input type="hidden" name="controller" id="controller" value="estimateMain" />
+				<input type="hidden" name="methods" id="methods" value="wishSave" />
+				<input type="hidden" name="marketPlaceSeq" id="marketPlaceSeq" value="16" />
+				<input type="hidden" name="sellerSeq" id="sellerSeq" value="0" />
+				<input type="hidden" name="categorySeq" id="categorySeq" value="873" />
+				<input type="hidden" name="categoryDepth" id="categoryDepth" value="2" />
+				<input type="hidden" name="returnUrl" id="returnUrl" value="/virtualestimate/?controller=estimateShop&methods=index&marketPlaceSeq=16" />
+				<input type="hidden" name="pseq" id="pseq" value="2" />
+				<input type="hidden" name="externalType" id="externalType" value="0" />
+				<input type="hidden" name="mode" id="mode" value="onlineEstimate" />
+				<input type="hidden" name="isSave" id="isSave" value="Y" />
+				<input type="hidden" name="shareYN" id="shareYN" value="N" />
+				<input type="hidden" name="sharedSns" id="sharedSns" value="N" />
+				<input type="hidden" name="folderSeq" id="folderSeq" value="0" />
+				<input type="hidden" name="returnUrlBack" id="returnUrlBack" value="/virtualestimate/?controller=estimateShop&methods=index&marketPlaceSeq=16" />
+				<input type="hidden" name="estimateWriteFormLink" id="estimateWriteFormLink" value="https://shop.danawa.com/pc/?controller=estimateDeal&methods=form" />
+				<input type="hidden" name="returnType" /><!-- SNS공유시 사용 -->
+
+		<!-- wish_product_list -->
+		<div id="wish_product_list">
+			<!-- pd_list : pc견적 개선 신규 -->
+			<div class="pd_list_area">
+							<!-- 닫기시 closed 클래스 추가 -->
+				<dl class="group_0 pd_list">
+					<dt class="pd_group">
+						키보드 주요부품						<!-- btn_open_cell : 열기 -->
+						<a href="javascript:viewGroup(0);" class="btn_close_cell">닫기</a>
+					</dt>
+									<!-- 선택시 select 클래스 추가 -->
+					<dd class="category_873 select pd_item">
+						<a href="#"
+							onclick="viewCategoryProductList(873,2);"
+							onmousedown="_trkEventLog('PC견적메인_장바구니_카테고리_(CPU)')"
+							class="pd_item_title"
+						>하우징</a>
+						<ul class="pd_item_list"></ul>
+					</dd>
+									<!-- 선택시 select 클래스 추가 -->
+					<dd class="category_875 pd_item">
+						<a href="#"
+							onclick="viewCategoryProductList(875,2);"
+							onmousedown="_trkEventLog('PC견적메인_장바구니_카테고리_(메인보드)')"
+							class="pd_item_title"
+						>보강판</a>
+						<ul class="pd_item_list"></ul>
+					</dd>
+									<!-- 선택시 select 클래스 추가 -->
+					<dd class="category_874 pd_item">
+						<a href="#"
+							onclick="viewCategoryProductList(874,2);"
+							onmousedown="_trkEventLog('PC견적메인_장바구니_카테고리_(메모리)')"
+							class="pd_item_title"
+						>기판</a>
+						<ul class="pd_item_list"></ul>
+					</dd>
+									<!-- 선택시 select 클래스 추가 -->
+					<dd class="category_876 pd_item">
+						<a href="#"
+							onclick="viewCategoryProductList(876,2);"
+							onmousedown="_trkEventLog('PC견적메인_장바구니_카테고리_(그래픽카드)')"
+							class="pd_item_title"
+						>스테빌라이저</a>
+						<ul class="pd_item_list"></ul>
+					</dd>
+									<!-- 선택시 select 클래스 추가 -->
+					<dd class="category_32617 pd_item">
+						<a href="#"
+							onclick="viewCategoryProductList(32617,2);"
+							onmousedown="_trkEventLog('PC견적메인_장바구니_카테고리_(SSD)')"
+							class="pd_item_title"
+						>스위치</a>
+						<ul class="pd_item_list"></ul>
+					</dd>
+									<!-- 선택시 select 클래스 추가 -->
+					<dd class="category_877 pd_item">
+						<a href="#"
+							onclick="viewCategoryProductList(877,2);"
+							onmousedown="_trkEventLog('PC견적메인_장바구니_카테고리_(하드디스크)')"
+							class="pd_item_title"
+						>키캡</a>
+						<ul class="pd_item_list"></ul>
+					</dd>
+									<!-- 선택시 select 클래스 추가 -->
+					<dd class="category_878 pd_item">
+						<a href="#"
+							onclick="viewCategoryProductList(878,2);"
+							onmousedown="_trkEventLog('PC견적메인_장바구니_카테고리_(ODD)')"
+							class="pd_item_title"
+						>ODD</a>
+						<ul class="pd_item_list"></ul>
+					</dd>
+									<!-- 선택시 select 클래스 추가 -->
+					<dd class="category_879 pd_item">
+						<a href="#"
+							onclick="viewCategoryProductList(879,2);"
+							onmousedown="_trkEventLog('PC견적메인_장바구니_카테고리_(케이스)')"
+							class="pd_item_title"
+						>케이스</a>
+						<ul class="pd_item_list"></ul>
+					</dd>
+									<!-- 선택시 select 클래스 추가 -->
+					<dd class="category_880 pd_item">
+						<a href="#"
+							onclick="viewCategoryProductList(880,2);"
+							onmousedown="_trkEventLog('PC견적메인_장바구니_카테고리_(파워)')"
+							class="pd_item_title"
+						>파워</a>
+						<ul class="pd_item_list"></ul>
+					</dd>
+									<!-- 선택시 select 클래스 추가 -->
+					
+								</dl>
+							<!-- 닫기시 closed 클래스 추가 -->
+				<dl class="group_1 pd_list">
+					<dt class="pd_group">
+						추가상품						<!-- btn_open_cell : 열기 -->
+						<a href="javascript:viewGroup(1);" class="btn_close_cell">닫기</a>
+					</dt>
+									<!-- 선택시 select 클래스 추가 -->
+					<dd class="category_59317 pd_item">
+						<a href="#"
+							onclick="viewCategoryProductList(59317,2);"
+							onmousedown="_trkEventLog('PC견적메인_장바구니_카테고리_(PC 헤드셋)')"
+							class="pd_item_title"
+						>뭐로 할까요</a>
+						<ul class="pd_item_list"></ul>
+					</dd>
+									<!-- 선택시 select 클래스 추가 -->
+					<dd class="category_39536 pd_item">
+						<a href="#"
+							onclick="viewCategoryProductList(39536,3);"
+							onmousedown="_trkEventLog('PC견적메인_장바구니_카테고리_(리더기)')"
+							class="pd_item_title"
+						>고민이네</a>
+						<ul class="pd_item_list"></ul>
+					</dd>
+					
+								</dl>
+							<!-- 닫기시 closed 클래스 추가 -->
+				<dl class="group_2 pd_list">
+					<dt class="pd_group">
+						기타상품						<!-- btn_open_cell : 열기 -->
+						<a href="javascript:viewGroup(2);" class="btn_close_cell">닫기</a>
+					</dt>
+									<!-- 선택시 select 클래스 추가 -->
+					<dd class="category_10620 pd_item">
+						<a href="#"
+							onclick="viewCategoryProductList(10620,2);"
+							onmousedown="_trkEventLog('PC견적메인_장바구니_카테고리_(외장HDD)')"
+							class="pd_item_title"
+						>뭐로 할까</a>
+						<ul class="pd_item_list"></ul>
+					</dd>
+									<!-- 선택시 select 클래스 추가 -->
+								</dl>
+						</div>
+			<!--// pd_list : pc견적 개선 신규 -->
+
+			<!-- pb_goods -->
+			<div class="pb_goods" style="display:none;">
+				<!-- service_list : pc견적 개선 신규 -->
+				<dl class="service_list">
+					<dt class="service_title">부가서비스</dt>
+				</dl>
+				<!--// service_list : pc견적 개선 신규 -->
+			</div>
+			<!--// pb_goods  -->
+		</div>
+		<!--// wish_product_list -->
+
+		<!-- box_total -->
+		<div class="box_total">
+			<div class="box_top_area">
+				<span class="txt_box_top">총 <em class="point_cl_01"></em>개 품목선택</span>
+				<a href="#" onClick="removeWishAll(); return false;" class="btn_delete_all" onmousedown="_trkEventLog('PC견적메인_장바구니_전체삭제')">전체삭제</a>
+			</div>
+			<dl class="total_price_area">
+				<dt>총 합계금액</dt>
+				<dd><span id="totalPrice" class="total_price"><strong>0</strong>원</span></dd>
+			</dl>
+		</div>
+		<!--// box_total -->
+	</form>
+
+
+	<input type="hidden" name="displayGroup_3415638" value="2" />
+	<input type="hidden" name="displayGroup_3316772" value="2" />
+	<input type="hidden" name="displayGroup_1363731" value="2" />
+
+</div>
+
+<iframe title="iframe" name="ifrFormSumit" id="ifrFormSumit" style="display:none;"></iframe>
+
+<script src="//static.danawa.com/globaljs/static/logger_trackEvent.js"></script>
+<script src="js/shopkeyboard.js"></script>
+
+</body>
+</html>

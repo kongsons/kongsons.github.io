@@ -1,0 +1,2459 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>행복쇼핑의 시작! 다나와 (가격비교)</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="Title" content="행복쇼핑의 시작! 다나와 (가격비교)" />
+<meta name="Description" content="다나와는 온라인 전제품에 대한 가격비교 사이트 입니다. 안전구매시스템(전자보증,Escrow)을 갖춘 쇼핑몰의 최저 가격 정보를 보여드리며, 다양한 각도의 상품 사진, 상세 설명, 소비자 의견 등을 한곳에서 볼 수 있습니다. 즐거운 비교 쇼핑,다나와!" />
+<meta name="Keywords" content="가격비교, 상품 추천, 가격비교사이트, 다나와, 가격비교 싸이트, 가격 검색, 최저가, 추천, 인터넷쇼핑, 온라인쇼핑, 쇼핑, 쇼핑몰, 싸게 파는 곳, 지식쇼핑" />
+
+
+
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/navigation.css" />
+<link rel="stylesheet" type="text/css" href="css/shopkeyboard.css" />
+<link rel="stylesheet" type="text/css" href="css/setkeyboard.css" />
+<link rel="stylesheet" type="text/css" href="css/estimate_main.css" />
+<link rel="stylesheet" type="text/css" href="css/estimate_renew.css" />
+
+<script type="text/javascript" src="js/jquery-last.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/estimateMainProduct.js"></script>
+<script type="text/javascript" src="js/numberToComma.js"></script>
+<script type="text/javascript" src="js/search.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/popupInfo.js"></script>
+</head>
+<body>
+<div class="middle_left_content">
+
+	<!-- total_srch_area -->
+	<div class="total_srch_area">
+		<!-- total_srch_top -->
+		<div class="total_srch_top">
+			<!-- total_srch_bar -->
+			<div class="total_srch_bar">
+				<span class="search_input_wrap">
+					<!-- input 클릭 시 total_srch_lb 비활성화 -->
+					<!-- <label for="searchProduct" class="total_srch_lb">상품명을 검색하세요.</label> -->
+					<input type="text" class="total_srch_inpt placeholder" id="searchProduct" onkeypress="if(event.keyCode==13){changeSearchOption();}"/>
+				</span>
+				<button class="btn_search" onclick="changeSearchOption();"><span class="hide_txt">검색</span></button>
+			</div>
+			<!--// total_srch_bar -->
+
+					</div>
+		<!--// total_srch_top -->
+		<!-- title_area -->
+		<div class="title_area">
+			<h3 class="prod_name"></h3>
+			<span class="prod_num"></span>
+		</div>
+		<!--// title_area -->
+	</div>
+	<!--// total_srch_area -->
+
+	<form name=searchForm method="get">
+				<input type="hidden" name="controller" value="estimateMain" />
+				<input type="hidden" name="methods" value="product" />
+				<input type="hidden" name="categorySeq" value="875" />
+				<input type="hidden" name="categoryDepth" value="2" />
+				<input type="hidden" name="marketPlaceSeq" value="16" />
+				<input type="hidden" name="sellerSeq" value="0" />
+				<input type="hidden" name="pseq" value="2" />
+				<input type="hidden" name="name" value="" />
+				<input type="hidden" name="listPerPage" value="30" />
+				<input type="hidden" name="attribute" value="" />
+				<input type="hidden" name="makerCode" value="" />
+				<input type="hidden" name="brandCode" value="" />
+				<input type="hidden" name="serviceSectionSeq" value="0" />
+				<input type="hidden" name="productRegisterAreaGroupSeq" value="0" />
+				<input type="hidden" name="ignoreKeywordYN" value="N" />
+				<input type="hidden" name="orderbyList" value="PRODUCT_POPULAR_DESC" />
+				<input type="hidden" name="preparationSale" value="" />
+				<input type="hidden" name="tabOrderbyYn" value="N" />
+				<input type="hidden" name="suggestName" value="" />
+				<input type="hidden" name="displayOptionCount" value="3" />
+				<input type="hidden" name="categoryName" value="메인보드" />
+				<input type="hidden" name="productRegisterAreaSeq" value="2" />
+				<input type="hidden" name="categorySeq1" value="861" />
+				<input type="hidden" name="categorySeq2" value="875" />
+				<input type="hidden" name="categorySeq3" value="0" />
+				<input type="hidden" name="categorySeq4" value="0" />
+				<input type="hidden" name="selectOptionList[]" value="499" />
+				<input type="hidden" name="selectOptionList[]" value="500" />
+				<input type="hidden" name="selectOptionList[]" value="504" />
+				<input type="hidden" name="selectOptionList[]" value="506" />
+				<input type="hidden" name="selectOptionList[]" value="509" />
+				<input type="hidden" name="selectOptionList[]" value="510" />
+				<input type="hidden" name="selectOptionList[]" value="8856" />
+				<input type="hidden" name="selectOptionList[]" value="512" />
+				<input type="hidden" name="selectOptionList[]" value="6204" />
+				<input type="hidden" name="selectOptionList[]" value="24942" />
+				<input type="hidden" name="selectOptionList[]" value="519" />
+				<input type="hidden" name="selectOptionList[]" value="6092" />
+				<input type="hidden" name="selectOptionList[]" value="6205" />
+				<input type="hidden" name="selectOptionList[]" value="21207" />
+				<input type="hidden" name="goodsCount" value="1226" />
+				<input type="hidden" name="page" value="1" />
+			<input type="hidden" name="tabOrderbyYn" value="" />
+	</form>
+
+	<!-- 검색옵션 -->
+		<!-- select_search_area -->
+	<div id="selectSearchArea" class="select_search_area">
+		<!-- select_list -->
+		<div class="select_list">
+					<!-- list_repeat -->
+			<ul class="list_repeat">
+							<li>
+					<select class="slct_detail" name="srchMaker" title="제조사 선택">
+						<option value="">제조사</option>
+												<option value="4503">kbdfans</option>
+												<option value="2869">ASUS</option>
+												<option value="2904">MSI</option>
+												<option value="3148">GIGABYTE</option>
+												<option value="3316">ECS</option>
+												
+											</select>
+				</li>
+							<li>
+					<select class="slct_detail" name="srchAttribute[]" title="제품 분류 선택">
+						<option value="">배열</option>
+												<option value="875|499|2153|S">40%</option>
+												<option value="875|499|2154|S">60%(포커)</option>
+												<option value="875|499|233938|S">텐키리스</option>
+												<option value="875|499|233942|S">풀배열</option>
+											</select>
+				</li>
+							<li>
+					<select class="slct_detail" name="srchAttribute[]" title="CPU 소켓 선택">
+						<option value="">CPU 소켓</option>
+												<option value="875|500|222725|S" style="background-color:#d0cdf9;">인텔(소켓2066) </option>
+												<option value="875|500|231477|S" style="background-color:#d0cdf9;">인텔(소켓1151v2) </option>
+												<option value="875|500|183590|S" style="background-color:#d0cdf9;">인텔(소켓1151) </option>
+												<option value="875|500|225087|S" style="background-color:#d0cdf9;">AMD(소켓TR4) </option>
+												<option value="875|500|212831|S" style="background-color:#d0cdf9;">AMD(소켓AM4) </option>
+												<option value="875|500|623801|S">AMD(소켓sTRX4) </option>
+												<option value="875|500|243383|S">인텔(소켓3647) </option>
+												<option value="875|500|164508|S">인텔(소켓2011-V3) </option>
+												<option value="875|500|108706|S">인텔(소켓2011) </option>
+												<option value="875|500|2156|S">인텔(소켓1366) </option>
+												<option value="875|500|133224|S">인텔(소켓1150) </option>
+												<option value="875|500|75069|S">인텔(소켓1155) </option>
+												<option value="875|500|23560|S">인텔(소켓1156) </option>
+												<option value="875|500|2157|S">인텔(소켓775) </option>
+												<option value="875|500|2171|S">인텔(소켓479) </option>
+												<option value="875|500|2158|S">인텔(소켓478) </option>
+												<option value="875|500|2172|S">인텔(소켓437) </option>
+												<option value="875|500|2159|S">인텔(소켓771) </option>
+												<option value="875|500|71100|S">인텔(소켓559) </option>
+												<option value="875|500|2160|S">인텔(소켓603/604) </option>
+												<option value="875|500|162804|S">인텔(소켓1170) </option>
+												<option value="875|500|85488|S">인텔(기타) </option>
+												<option value="875|500|214944|S">인텔(CPU내장) </option>
+												<option value="875|500|145974|S">AMD(소켓FM2+) </option>
+												<option value="875|500|120237|S">AMD(소켓FM2) </option>
+												<option value="875|500|90209|S">AMD(소켓FM1) </option>
+												<option value="875|500|86417|S">AMD(소켓AM3+) </option>
+												<option value="875|500|2161|S">AMD(소켓AM3) </option>
+												<option value="875|500|2162|S">AMD(소켓AM2+) </option>
+												<option value="875|500|2163|S">AMD(소켓AM2) </option>
+												<option value="875|500|159168|S">AMD(소켓AM1) </option>
+												<option value="875|500|55493|S">AMD(소켓G34) </option>
+												<option value="875|500|84738|S">AMD(기타) </option>
+												<option value="875|500|2164|S">AMD(소켓939) </option>
+												<option value="875|500|2165|S">AMD(소켓754) </option>
+												<option value="875|500|2166|S">AMD(소켓940) </option>
+												<option value="875|500|2167|S">AMD(소켓F) </option>
+												<option value="875|500|2169|S">AMD(소켓A) </option>
+												<option value="875|500|234435|S">AMD(CPU내장) </option>
+												<option value="875|500|233932|S">ATMEL(CPU내장) </option>
+												<option value="875|500|613313|S">Rockchip(CPU내장) </option>
+												<option value="875|500|2170|S">기타 </option>
+											</select>
+				</li>
+							<li>
+					<select class="slct_detail" name="srchAttribute[]" title="세부 칩셋 선택">
+						<option value="">세부 칩셋</option>
+												<option value="875|504|263871|S" style="background-color:#d0cdf9;">(인텔) Z390 </option>
+												<option value="875|504|329710|S" style="background-color:#d0cdf9;">(인텔) B365 </option>
+												<option value="875|504|246590|S" style="background-color:#d0cdf9;">(인텔) B360 </option>
+												<option value="875|504|246592|S" style="background-color:#d0cdf9;">(인텔) H310 </option>
+												<option value="875|504|402965|S" style="background-color:#d0cdf9;">(AMD) X570 </option>
+												<option value="875|504|247766|S" style="background-color:#d0cdf9;">(AMD) X470 </option>
+												<option value="875|504|258834|S" style="background-color:#d0cdf9;">(AMD) B450 </option>
+												<option value="875|504|215616|S" style="background-color:#d0cdf9;">(AMD) A320 </option>
+												
+											</select>
+				</li>
+						</ul>
+			<!--// list_repeat -->
+					<!-- list_repeat -->
+			<ul class="list_repeat">
+							<li>
+					<select class="slct_detail" name="srchAttribute[]" title="폼팩터 선택">
+						<option value="">폼팩터</option>
+												<option value="875|506|2459|S" style="background-color:#d0cdf9;">ATX (30.5x24.4cm) </option>
+												<option value="875|506|2460|S" style="background-color:#d0cdf9;">M-ATX (24.4x24.4cm) </option>
+												<option value="875|506|2464|S" style="background-color:#d0cdf9;">M-iTX (17.0x17.0cm) </option>
+												<option value="875|506|2461|S" style="background-color:#d0cdf9;">E-ATX (30.5x33.0cm) </option>
+												<option value="875|506|2462|S">F-ATX (22.9x19.1cm) </option>
+												<option value="875|506|2463|S">BTX (32.5x26.7cm) </option>
+												<option value="875|506|193462|S">M-STX (14.0x14.7cm) </option>
+												<option value="875|506|33385|S">기타 </option>
+											</select>
+				</li>
+							<li>
+					<select class="slct_detail" name="srchAttribute[]" title="메모리 종류 선택">
+						<option value="">메모리 종류</option>
+												<option value="875|509|164511|S" style="background-color:#d0cdf9;">DDR4 </option>
+												<option value="875|509|2501|S" style="background-color:#d0cdf9;">DDR3 </option>
+												<option value="875|509|184526|S" style="background-color:#d0cdf9;">DDR3/DDR3L </option>
+												<option value="875|509|2502|S">DDR3/DDR2 </option>
+												<option value="875|509|2499|S">DDR2 </option>
+												<option value="875|509|2500|S">DDR2/DDR </option>
+												<option value="875|509|2498|S">DDR </option>
+												<option value="875|509|2503|S">RDRAM </option>
+												<option value="875|509|243718|S">DDR4 노트북용 </option>
+												<option value="875|509|199329|S">DDR3 노트북용 </option>
+											</select>
+				</li>
+							<li>
+					<select class="slct_detail" name="srchAttribute[]" title="메모리 슬롯 선택">
+						<option value="">메모리 슬롯</option>
+												<option value="875|510|2507|S">5개 이상 </option>
+												<option value="875|510|2506|S">4개 </option>
+												<option value="875|510|2505|S">3개 </option>
+												<option value="875|510|2504|S">2개 이하 </option>
+											</select>
+				</li>
+							<li>
+					<select class="slct_detail" name="srchAttribute[]" title="메모리 용량 선택">
+						<option value="">메모리 용량</option>
+												<option value="875|8856|111875|S"> 최대 128GB 이상</option>
+												<option value="875|8856|83142|S"> 최대 64GB</option>
+												<option value="875|8856|83141|S"> 최대 48GB</option>
+												<option value="875|8856|83140|S"> 최대 32GB</option>
+												<option value="875|8856|41543|S"> 최대 24GB</option>
+												<option value="875|8856|39878|S"> 최대 16GB</option>
+												<option value="875|8856|71095|S"> 최대 12GB</option>
+												<option value="875|8856|39877|S"> 최대 8GB</option>
+												<option value="875|8856|39876|S"> 최대 4GB</option>
+												<option value="875|8856|40153|S"> 최대 2GB</option>
+												<option value="875|8856|342301|S"> 16GB 내장</option>
+												<option value="875|8856|232407|S"> 8GB 내장</option>
+												<option value="875|8856|232406|S"> 4GB 내장</option>
+												<option value="875|8856|232408|S"> 2GB 내장</option>
+												<option value="875|8856|229794|S"> 1GB 내장</option>
+												<option value="875|8856|229797|S"> 512MB 내장</option>
+												<option value="875|8856|232299|S"> 256MB 내장</option>
+											</select>
+				</li>
+						</ul>
+			<!--// list_repeat -->
+					<!-- list_repeat -->
+			<ul class="list_repeat">
+							<li>
+					<select class="slct_detail" name="srchAttribute[]" title="VGA 연결 선택">
+						<option value="">VGA 연결</option>
+												<option value="875|512|403121|S">PCIe4.0 x16 </option>
+												<option value="875|512|92653|S">PCIe3.0 x16 </option>
+												<option value="875|512|209804|S">PCIe3.0 x8 </option>
+												<option value="875|512|2512|S">PCIe x16 </option>
+												<option value="875|512|2513|S">PCIe 호환 </option>
+												<option value="875|512|2514|S">AGP </option>
+												<option value="875|512|2515|S">AGP 호환 </option>
+											</select>
+				</li>
+							<li>
+					<select class="slct_detail" name="srchAttribute[]" title="M.2 선택">
+						<option value="">M.2</option>
+												<option value="875|24942|624593|S"> 5개</option>
+												<option value="875|24942|209096|S"> 4개</option>
+												<option value="875|24942|159166|S"> 3개</option>
+												<option value="875|24942|159165|S"> 2개</option>
+												<option value="875|24942|159164|S"> 1개</option>
+												<option value="875|24942|212913|S"> 2 + 1개</option>
+												<option value="875|24942|212914|S"> 1 + 1개</option>
+											</select>
+				</li>
+							<li>
+					<select class="slct_detail" name="srchAttribute[]" title="그래픽 출력 선택">
+						<option value="">그래픽 출력</option>
+												<option value="875|6092|21938|M">D-SUB </option>
+												<option value="875|6092|21939|M">DVI </option>
+												<option value="875|6092|21940|M">HDMI </option>
+												<option value="875|6092|21941|M">DP </option>
+											</select>
+				</li>
+							<li>
+					<select class="slct_detail" name="srchAttribute[]" title="후면 단자 선택">
+						<option value="">후면 단자</option>
+												<option value="875|6205|178891|M" style="background-color:#d0cdf9;">USB 3.1 Gen 2 </option>
+												<option value="875|6205|31185|M" style="background-color:#d0cdf9;">USB 3.1 Gen 1 </option>
+												<option value="875|6205|229832|M" style="background-color:#d0cdf9;">썬더볼트3 </option>
+												<option value="875|6205|92505|M" style="background-color:#d0cdf9;">썬더볼트 </option>
+												<option value="875|6205|22444|M" style="background-color:#d0cdf9;">e-SATA </option>
+												<option value="875|6205|624191|M">USB 3.2 Gen 2 </option>
+												<option value="875|6205|191757|M">시리얼포트 </option>
+												<option value="875|6205|191758|M">패러럴포트 </option>
+												<option value="875|6205|22445|M">IEEE1394 </option>
+											</select>
+				</li>
+						</ul>
+			<!--// list_repeat -->
+					<!-- list_repeat -->
+			<ul class="list_repeat">
+							<li>
+					<select class="slct_detail" name="srchAttribute[]" title="LAN 구성 선택">
+						<option value="">LAN 구성</option>
+												<option value="875|21207|136802|M">기가비트 LAN </option>
+												<option value="875|21207|623813|M">2.5기가비트 LAN </option>
+												<option value="875|21207|209632|M">10기가비트 LAN </option>
+												<option value="875|21207|232310|M">100Mbps LAN </option>
+												<option value="875|21207|242567|M">듀얼 LAN </option>
+												<option value="875|21207|136803|M">무선 LAN </option>
+												<option value="875|21207|191741|M">블루투스 </option>
+											</select>
+				</li>
+						</ul>
+			<!--// list_repeat -->
+				</div>
+		<!--// select_list -->
+	</div>
+	<!--// select_search_area -->
+
+	<!-- 통합검색 -->
+	
+	<form name="productForm" method="get">
+				<input type="hidden" name="controller" value="estimateMain" />
+				<input type="hidden" name="methods" value="product" />
+				<input type="hidden" name="categorySeq" value="875" />
+				<input type="hidden" name="categoryDepth" value="2" />
+				<input type="hidden" name="marketPlaceSeq" value="16" />
+				<input type="hidden" name="sellerSeq" value="0" />
+				<input type="hidden" name="pseq" value="2" />
+				<input type="hidden" name="name" value="" />
+				<input type="hidden" name="listPerPage" value="30" />
+				<input type="hidden" name="attribute" value="" />
+				<input type="hidden" name="makerCode" value="" />
+				<input type="hidden" name="brandCode" value="" />
+				<input type="hidden" name="serviceSectionSeq" value="0" />
+				<input type="hidden" name="productRegisterAreaGroupSeq" value="0" />
+				<input type="hidden" name="ignoreKeywordYN" value="N" />
+				<input type="hidden" name="orderbyList" value="PRODUCT_POPULAR_DESC" />
+				<input type="hidden" name="preparationSale" value="" />
+				<input type="hidden" name="tabOrderbyYn" value="N" />
+				<input type="hidden" name="suggestName" value="" />
+				<input type="hidden" name="displayOptionCount" value="3" />
+				<input type="hidden" name="categoryName" value="메인보드" />
+				<input type="hidden" name="productRegisterAreaSeq" value="2" />
+				<input type="hidden" name="categorySeq1" value="861" />
+				<input type="hidden" name="categorySeq2" value="875" />
+				<input type="hidden" name="categorySeq3" value="0" />
+				<input type="hidden" name="categorySeq4" value="0" />
+				<input type="hidden" name="selectOptionList[]" value="499" />
+				<input type="hidden" name="selectOptionList[]" value="500" />
+				<input type="hidden" name="selectOptionList[]" value="504" />
+				<input type="hidden" name="selectOptionList[]" value="506" />
+				<input type="hidden" name="selectOptionList[]" value="509" />
+				<input type="hidden" name="selectOptionList[]" value="510" />
+				<input type="hidden" name="selectOptionList[]" value="8856" />
+				<input type="hidden" name="selectOptionList[]" value="512" />
+				<input type="hidden" name="selectOptionList[]" value="6204" />
+				<input type="hidden" name="selectOptionList[]" value="24942" />
+				<input type="hidden" name="selectOptionList[]" value="519" />
+				<input type="hidden" name="selectOptionList[]" value="6092" />
+				<input type="hidden" name="selectOptionList[]" value="6205" />
+				<input type="hidden" name="selectOptionList[]" value="21207" />
+				<input type="hidden" name="goodsCount" value="1226" />
+				<input type="hidden" name="page" value="1" />
+		</form>
+
+	<!-- text_img_view absolute_prod -->
+	<div class="text_img_view">
+		<!-- category_list -->
+		<div class="category_list">
+					<ul>
+							<li class="first select"><a href="javascript:productSort('PRODUCT_POPULAR_DESC');" onmousedown="_trkEventLog('PC견적메인_상품리스트_정렬탭_(인기상품순)');">인기상품순</a></li>
+							<li class=""><a href="javascript:productSort('PRODUCT_INPUT_DATE_DESC');" onmousedown="_trkEventLog('PC견적메인_상품리스트_정렬탭_(신상품순)');">신상품순</a></li>
+							<li class=""><a href="javascript:productSort('GOODSINFO_CASH_PRICE_ASC');" onmousedown="_trkEventLog('PC견적메인_상품리스트_정렬탭_(낮은 가격순)');">낮은 가격순</a></li>
+							<li class=""><a href="javascript:productSort('GOODSINFO_CASH_PRICE_DESC');" onmousedown="_trkEventLog('PC견적메인_상품리스트_정렬탭_(높은 가격순)');">높은 가격순</a></li>
+							<li class=""><a href="javascript:productSort('PRODUCT_NAME_ASC');" onmousedown="_trkEventLog('PC견적메인_상품리스트_정렬탭_(상품명순)');">상품명순</a></li>
+						</ul>
+				</div>
+		<!--// category_list -->
+
+		<!-- list_tbl_wrap admd_tbl_wrap -->
+		<div class="list_tbl_wrap admd_tbl_wrap estimate_renew_list"><!-- 애드리더 or MD 추천 상품이 있을 경우 -->
+					<!-- adreader_box -->
+			<div class="adreader_box">
+				<h3 class="tit_list">애드리더</h3>
+				<p class="txt_list">광고상품이며, 검색결과와 다를 수 있습니다.</p>
+				<!-- tbl_list -->
+				<table class="tbl_list" summary="추천상품에 대한 상품명 및 최저가 선택버튼/해제버튼 및 상품비교 버튼 정보가 있는 리스트 입니다.">
+					<caption>추천상품 목록</caption>
+					<colgroup>
+						<col class="goods_img" />
+						<col class="title_price" />
+						<col class="rig_line" />
+					</colgroup>
+					<thead>
+						<tr class="web_hidden">
+							<th scope="col" class="goods_img">상품</th>
+							<th scope="col" class="title_price">품목</th>
+							<th scope="col" class="rig_line">선택</th>
+						</tr>
+					</thead>
+					<tbody>
+											<!-- 추천상품 상품 기본 tr class="recom_area" -->
+						<tr class="recom_area productList_7170754">
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/754/170/img/7170754_1.jpg?shrink=80:80" alt="ASRock B450M 스틸레전드 에즈윈" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')">
+									<span class="icon"></span><span class="hide_txt">비교</span>
+								</a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject">
+									<a href="javascript:bizAdverClick(31046);productInfoPopup(7170754)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(7170754)')">
+										ASRock B450M 스틸레전드 에즈윈									</a>
+								</p>
+								<!-- 2017-01 spec_bg 추가 -->
+								<div class="spec_bg">
+									<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) B450/M-ATX (24.4x24.4cm)/전원부:6페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:HDMI,DP/PCIe 슬롯:3개/M.2:2개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/LED 라이트/LED 헤더/POLYCHROME</a>
+									<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+										<h4 class="lc_title">상품정보</h4>
+										<div class="spec_info_contents">
+											<p>AMD(소켓AM4)/(AMD) B450/M-ATX (24.4x24.4cm)/전원부:6페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:HDMI,DP/PCIe 슬롯:3개/M.2:2개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/LED 라이트/LED 헤더/POLYCHROME</p>
+										</div>
+										<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+									</div>
+								</div>
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+																	<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(7170754,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(7170754)');" class="icon_style btn_review">상품의견</a>
+																																					<a href="#" onclick="showAssemblyGallery(7170754);" class="icon_style" onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(7170754)');">조립갤러리</a>
+																											</div>
+								</div>
+																								<!--// addition_wrap -->
+							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price">105,370</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_애드리더담기_(7170754)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+									<input type="hidden" name="category" value="메인보드" />
+									<input type="hidden" name="linkCategorySeq" value="875" />
+									<input type="hidden" name="categoryDepth" value="2" />
+									<input type="hidden" name="categorySeq1" value="861" />
+									<input type="hidden" name="categorySeq2" value="875" />
+									<input type="hidden" name="categorySeq3" value="0" />
+									<input type="hidden" name="categorySeq4" value="0" />
+									<input type="hidden" name="name" value="ASRock B450M 스틸레전드 에즈윈" />
+									<input type="hidden" name="quantity" value="1" />
+									<input type="hidden" name="code" value="7170754" />
+									<input type="hidden" name="price" value="105370" />
+									<input type="hidden" name="cardPrice" value="111000" />
+							</td>
+						</tr>
+											<!-- 추천상품 상품 기본 tr class="recom_area" -->
+						<tr class="recom_area productList_6706111">
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/111/706/img/6706111_1.jpg?shrink=80:80" alt="BIOSTAR B450MH 이엠텍" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')">
+									<span class="icon"></span><span class="hide_txt">비교</span>
+								</a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject">
+									<a href="javascript:bizAdverClick(40450);productInfoPopup(6706111)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(6706111)')">
+										BIOSTAR B450MH 이엠텍									</a>
+								</p>
+								<!-- 2017-01 spec_bg 추가 -->
+								<div class="spec_bg">
+									<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) B450/M-ATX (24.4x19.8cm)/전원부:6페이즈/DDR4/메모리 용량:최대 32GB/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,HDMI/PCIe 슬롯:3개/M.2:1개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/기가비트 LAN</a>
+									<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+										<h4 class="lc_title">상품정보</h4>
+										<div class="spec_info_contents">
+											<p>AMD(소켓AM4)/(AMD) B450/M-ATX (24.4x19.8cm)/전원부:6페이즈/DDR4/메모리 용량:최대 32GB/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,HDMI/PCIe 슬롯:3개/M.2:1개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/기가비트 LAN</p>
+										</div>
+										<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+									</div>
+								</div>
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+																	<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(6706111,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(6706111)');" class="icon_style btn_review">상품의견</a>
+																																													</div>
+								</div>
+																								<!--// addition_wrap -->
+							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price">77,020</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_애드리더담기_(6706111)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+									<input type="hidden" name="category" value="메인보드" />
+									<input type="hidden" name="linkCategorySeq" value="875" />
+									<input type="hidden" name="categoryDepth" value="2" />
+									<input type="hidden" name="categorySeq1" value="861" />
+									<input type="hidden" name="categorySeq2" value="875" />
+									<input type="hidden" name="categorySeq3" value="0" />
+									<input type="hidden" name="categorySeq4" value="0" />
+									<input type="hidden" name="name" value="BIOSTAR B450MH 이엠텍" />
+									<input type="hidden" name="quantity" value="1" />
+									<input type="hidden" name="code" value="6706111" />
+									<input type="hidden" name="price" value="77020" />
+									<input type="hidden" name="cardPrice" value="78840" />
+							</td>
+						</tr>
+										</tbody>
+				</table>
+				<!--// tbl_list -->
+			</div>
+			<!--// adreader_box -->
+			
+			<!--v170925 height값 수정 scroll_box -->
+			<!-- 애드리더 상품 없을 시 height:623px;(css기본값으로 지정), 애드리더 상품이 있을때 height:623px - (.adreader_box의 높이값)px -->
+			<div class="scroll_box search_scroll_box">
+				<table class="tbl_list" summary="상품에 대한 품목 및 최저가에 대한 리스트입니다.">
+					<caption>상품 목록</caption>
+					<colgroup>
+						<col class="goods_img" />
+						<col class="title_price" />
+						<col class="rig_line" />
+					</colgroup>
+					<thead>
+						<tr class="web_hidden">
+							<th scope="col" class="goods_img">상품</th>
+							<th scope="col" class="title_price">품목</th>
+							<th scope="col" class="rig_line">선택</th>
+						</tr>
+					</thead>
+					<tbody>
+											<tr class="productList_6891775">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/775/891/img/6891775_1.jpg?shrink=80:80" alt="ASRock H310CM-HDV Plus 에즈윈" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(6891775)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(6891775)')">ASRock H310CM-HDV Plus 에즈윈</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">인텔(소켓1151v2)/(인텔) H310/M-ATX (22.6x18.8cm)/전원부:4페이즈/DDR4/메모리 용량:최대 32GB/XMP/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:3개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 4개/USB 3.1 Gen 1:후면 2개/기가비트 LAN/UEFI</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>인텔(소켓1151v2)/(인텔) H310/M-ATX (22.6x18.8cm)/전원부:4페이즈/DDR4/메모리 용량:최대 32GB/XMP/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:3개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 4개/USB 3.1 Gen 1:후면 2개/기가비트 LAN/UEFI</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																													<span class="icon_style md_recom">MD추천</span>
+																		</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(6891775,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(6891775)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(6891775);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(6891775)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(6891775);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(6891775)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 76,320</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(6891775)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="968" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASRock H310CM-HDV Plus 에즈윈" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="6891775" />
+								<input type="hidden" name="price" value="76320" />
+								<input type="hidden" name="cardPrice" value="79500" />
+							</td>
+						</tr>
+											<tr class="productList_8524905">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/905/524/img/8524905_1.jpg?shrink=80:80" alt="MSI X570-A PRO" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(8524905)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(8524905)')">MSI X570-A PRO</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.3cm)/전원부:11페이즈/DDR4/메모리 용량:최대 128GB/VGA 연결:PCIe4.0 x16/그래픽 출력:HDMI/PCIe 슬롯:5개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/AMD APU 지원/LED 헤더/MYSTIC LIGHT</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.3cm)/전원부:11페이즈/DDR4/메모리 용량:최대 128GB/VGA 연결:PCIe4.0 x16/그래픽 출력:HDMI/PCIe 슬롯:5개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/AMD APU 지원/LED 헤더/MYSTIC LIGHT</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																													<span class="icon_style md_recom">MD추천</span>
+																		</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(8524905,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(8524905)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(8524905);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(8524905)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(8524905);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(8524905)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 205,700</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(8524905)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="MSI X570-A PRO" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="8524905" />
+								<input type="hidden" name="price" value="205700" />
+								<input type="hidden" name="cardPrice" value="212550" />
+							</td>
+						</tr>
+											<tr class="productList_6508656">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/656/508/img/6508656_1.jpg?shrink=80:80" alt="ASUS PRIME Z390-P 아이보라" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(6508656)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(6508656)')">ASUS PRIME Z390-P 아이보라</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">인텔(소켓1151v2)/(인텔) Z390/ATX (30.5x23.4cm)/DDR4/메모리 용량:최대 64GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:HDMI,DP/PCIe 슬롯:6개/M.2:2개/SATA3:4개/PS/2:2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/LED 헤더/AURA SYNC</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>인텔(소켓1151v2)/(인텔) Z390/ATX (30.5x23.4cm)/DDR4/메모리 용량:최대 64GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:HDMI,DP/PCIe 슬롯:6개/M.2:2개/SATA3:4개/PS/2:2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/LED 헤더/AURA SYNC</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																													<span class="icon_style md_recom">MD추천</span>
+																		</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(6508656,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(6508656)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(6508656);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(6508656)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(6508656);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(6508656)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 175,960</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(6508656)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="968" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASUS PRIME Z390-P 아이보라" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="6508656" />
+								<input type="hidden" name="price" value="175960" />
+								<input type="hidden" name="cardPrice" value="179280" />
+							</td>
+						</tr>
+											<tr class="productList_7741678">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/678/741/img/7741678_1.jpg?shrink=80:80" alt="ASUS TUF B450M-PRO GAMING STCOM" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(7741678)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(7741678)')">ASUS TUF B450M-PRO GAMING STCOM</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) B450/M-ATX (24.4x24.4cm)/전원부:10페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:DVI,HDMI/PCIe 슬롯:3개/M.2:2개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 3개/USB 3.1 Gen 2:후면 1개/기가비트 LAN/UEFI/LED 라이트/LED 헤더/AURA SYNC</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) B450/M-ATX (24.4x24.4cm)/전원부:10페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:DVI,HDMI/PCIe 슬롯:3개/M.2:2개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 3개/USB 3.1 Gen 2:후면 1개/기가비트 LAN/UEFI/LED 라이트/LED 헤더/AURA SYNC</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(7741678,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(7741678)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(7741678);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(7741678)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(7741678);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(7741678)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 126,600</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(7741678)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASUS TUF B450M-PRO GAMING STCOM" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="7741678" />
+								<input type="hidden" name="price" value="126600" />
+								<input type="hidden" name="cardPrice" value="128020" />
+							</td>
+						</tr>
+											<tr class="productList_8938550">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/550/938/img/8938550_1.jpg?shrink=80:80" alt="MSI MAG B450M 박격포 맥스" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(8938550)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(8938550)')">MSI MAG B450M 박격포 맥스</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) B450/M-ATX (24.4x24.4cm)/전원부:7페이즈/DDR4/메모리 용량:최대 64GB/XMP/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire/그래픽 출력:HDMI,DP/PCIe 슬롯:4개/M.2:2개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/MYSTIC LIGHT</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) B450/M-ATX (24.4x24.4cm)/전원부:7페이즈/DDR4/메모리 용량:최대 64GB/XMP/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire/그래픽 출력:HDMI,DP/PCIe 슬롯:4개/M.2:2개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/MYSTIC LIGHT</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(8938550,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(8938550)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(8938550);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(8938550)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(8938550);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(8938550)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 108,650</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(8938550)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="MSI MAG B450M 박격포 맥스" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="8938550" />
+								<input type="hidden" name="price" value="108650" />
+								<input type="hidden" name="cardPrice" value="115000" />
+							</td>
+						</tr>
+											<tr class="productList_7108366">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/366/108/img/7108366_1.jpg?shrink=80:80" alt="ASUS PRIME B365M-A 코잇" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(7108366)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(7108366)')">ASUS PRIME B365M-A 코잇</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">인텔(소켓1151v2)/(인텔) B365/M-ATX (24.4x21.8cm)/DDR4/메모리 용량:최대 64GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:3개/M.2:2개/SATA3:6개/PS/2:2개/USB 3.1 Gen 1:후면 5개/기가비트 LAN/UEFI</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>인텔(소켓1151v2)/(인텔) B365/M-ATX (24.4x21.8cm)/DDR4/메모리 용량:최대 64GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:3개/M.2:2개/SATA3:6개/PS/2:2개/USB 3.1 Gen 1:후면 5개/기가비트 LAN/UEFI</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(7108366,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(7108366)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(7108366);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(7108366)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(7108366);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(7108366)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 98,840</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(7108366)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="968" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASUS PRIME B365M-A 코잇" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="7108366" />
+								<input type="hidden" name="price" value="98840" />
+								<input type="hidden" name="cardPrice" value="101250" />
+							</td>
+						</tr>
+											<tr class="productList_6352473">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/473/352/img/6352473_1.jpg?shrink=80:80" alt="ASRock B450M PRO4 에즈윈" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(6352473)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(6352473)')">ASRock B450M PRO4 에즈윈</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) B450/M-ATX (24.4x24.4cm)/전원부:9페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:3개/M.2:2개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/AMD APU 지원/LED 헤더</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) B450/M-ATX (24.4x24.4cm)/전원부:9페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:3개/M.2:2개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/AMD APU 지원/LED 헤더</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																													<span class="icon_style md_recom">MD추천</span>
+																		</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(6352473,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(6352473)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(6352473);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(6352473)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(6352473);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(6352473)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 98,120</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(6352473)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASRock B450M PRO4 에즈윈" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="6352473" />
+								<input type="hidden" name="price" value="98120" />
+								<input type="hidden" name="cardPrice" value="104000" />
+							</td>
+						</tr>
+											<tr class="productList_7452148">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/148/452/img/7452148_1.jpg?shrink=80:80" alt="ASUS EX A320M-GAMING 대원CTS" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(7452148)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(7452148)')">ASUS EX A320M-GAMING 대원CTS</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) A320/M-ATX (24.4x24.4cm)/전원부:6페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/그래픽 출력:DVI,HDMI/PCIe 슬롯:3개/M.2:1개/SATA3:4개/PS/2:2개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/LED 헤더/AURA SYNC</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) A320/M-ATX (24.4x24.4cm)/전원부:6페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/그래픽 출력:DVI,HDMI/PCIe 슬롯:3개/M.2:1개/SATA3:4개/PS/2:2개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/LED 헤더/AURA SYNC</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(7452148,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(7452148)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(7452148);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(7452148)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(7452148);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(7452148)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 77,700</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(7452148)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASUS EX A320M-GAMING 대원CTS" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="7452148" />
+								<input type="hidden" name="price" value="77700" />
+								<input type="hidden" name="cardPrice" value="80660" />
+							</td>
+						</tr>
+											<tr class="productList_6681823">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/823/681/img/6681823_1.jpg?shrink=80:80" alt="MSI H310M PRO-VD PLUS" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(6681823)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(6681823)')">MSI H310M PRO-VD PLUS</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">인텔(소켓1151v2)/(인텔) H310/M-ATX (22.6x18.5cm)/전원부:7페이즈/DDR4/메모리 용량:최대 32GB/XMP/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,DVI/PCIe 슬롯:3개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 4개/USB 3.1 Gen 1:후면 2개/기가비트 LAN/UEFI</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>인텔(소켓1151v2)/(인텔) H310/M-ATX (22.6x18.5cm)/전원부:7페이즈/DDR4/메모리 용량:최대 32GB/XMP/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,DVI/PCIe 슬롯:3개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 4개/USB 3.1 Gen 1:후면 2개/기가비트 LAN/UEFI</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(6681823,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(6681823)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(6681823);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(6681823)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(6681823);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(6681823)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 69,620</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(6681823)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="968" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="MSI H310M PRO-VD PLUS" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="6681823" />
+								<input type="hidden" name="price" value="69620" />
+								<input type="hidden" name="cardPrice" value="74000" />
+							</td>
+						</tr>
+											<tr class="productList_6510099">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/099/510/img/6510099_1.jpg?shrink=80:80" alt="ASUS PRIME Z390-A 인텍앤컴퍼니" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(6510099)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(6510099)')">ASUS PRIME Z390-A 인텍앤컴퍼니</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">인텔(소켓1151v2)/(인텔) Z390/ATX (30.5x24.4cm)/DDR4/메모리 용량:최대 64GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X,SLI/그래픽 출력:HDMI,DP/PCIe 슬롯:6개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 2개/USB 3.1 Gen 2:후면 4개/기가비트 LAN/UEFI/LED 라이트/AURA SYNC</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>인텔(소켓1151v2)/(인텔) Z390/ATX (30.5x24.4cm)/DDR4/메모리 용량:최대 64GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X,SLI/그래픽 출력:HDMI,DP/PCIe 슬롯:6개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 2개/USB 3.1 Gen 2:후면 4개/기가비트 LAN/UEFI/LED 라이트/AURA SYNC</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(6510099,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(6510099)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(6510099);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(6510099)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(6510099);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(6510099)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 246,750</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(6510099)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="968" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASUS PRIME Z390-A 인텍앤컴퍼니" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="6510099" />
+								<input type="hidden" name="price" value="246750" />
+								<input type="hidden" name="cardPrice" value="253800" />
+							</td>
+						</tr>
+											<tr class="productList_8516985">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/985/516/img/8516985_1.jpg?shrink=80:80" alt="ASUS TUF Gaming X570-PLUS STCOM" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(8516985)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(8516985)')">ASUS TUF Gaming X570-PLUS STCOM</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.4cm)/DDR4/메모리 용량:최대 128GB/VGA 연결:PCIe4.0 x16/GPU 기술:CrossFire X/그래픽 출력:HDMI,DP/PCIe 슬롯:5개/M.2:2개/SATA3:8개/PS/2:콤보 1개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 3개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/LED 헤더/AURA SYNC</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.4cm)/DDR4/메모리 용량:최대 128GB/VGA 연결:PCIe4.0 x16/GPU 기술:CrossFire X/그래픽 출력:HDMI,DP/PCIe 슬롯:5개/M.2:2개/SATA3:8개/PS/2:콤보 1개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 3개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/LED 헤더/AURA SYNC</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(8516985,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(8516985)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(8516985);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(8516985)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(8516985);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(8516985)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 287,260</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(8516985)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASUS TUF Gaming X570-PLUS STCOM" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="8516985" />
+								<input type="hidden" name="price" value="287260" />
+								<input type="hidden" name="cardPrice" value="292680" />
+							</td>
+						</tr>
+											<tr class="productList_6013975">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/975/013/img/6013975_1.jpg?shrink=80:80" alt="MSI B360M 박격포" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(6013975)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(6013975)')">MSI B360M 박격포</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">인텔(소켓1151v2)/(인텔) B360/M-ATX (24.3x24.3cm)/전원부:7페이즈/DDR4/메모리 용량:최대 64GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/그래픽 출력:DVI,HDMI,DP/PCIe 슬롯:4개/M.2:2개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/LED 라이트/LED 헤더/MYSTIC LIGHT</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>인텔(소켓1151v2)/(인텔) B360/M-ATX (24.3x24.3cm)/전원부:7페이즈/DDR4/메모리 용량:최대 64GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/그래픽 출력:DVI,HDMI,DP/PCIe 슬롯:4개/M.2:2개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/LED 라이트/LED 헤더/MYSTIC LIGHT</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(6013975,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(6013975)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(6013975);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(6013975)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(6013975);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(6013975)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																								<p class="event">
+									<span class="event_txt">이벤트</span>
+									<a href="/virtualestimate/?controller=info&methods=vEstimateEvent&marketPlaceSeq=16&eventCategorySeq=5236" target="_blank" onmousedown="_trkEventLog('PC견적메인_상품리스트_이벤트_(6013975)');">구매 시 게이밍 마우스 추첨 증정!!</a>
+								</p>
+															</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 103,380</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(6013975)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="968" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="MSI B360M 박격포" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="6013975" />
+								<input type="hidden" name="price" value="103380" />
+								<input type="hidden" name="cardPrice" value="109000" />
+							</td>
+						</tr>
+											<tr class="productList_6948952">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/952/948/img/6948952_1.jpg?shrink=80:80" alt="ASRock A320M-HDV R4.0 에즈윈" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(6948952)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(6948952)')">ASRock A320M-HDV R4.0 에즈윈</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) A320/M-ATX (23.0x20.1cm)/전원부:6페이즈/DDR4/메모리 용량:최대 32GB/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:2개/M.2:1개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/기가비트 LAN/UEFI</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) A320/M-ATX (23.0x20.1cm)/전원부:6페이즈/DDR4/메모리 용량:최대 32GB/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:2개/M.2:1개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/기가비트 LAN/UEFI</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(6948952,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(6948952)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(6948952);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(6948952)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(6948952);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(6948952)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 66,780</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(6948952)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASRock A320M-HDV R4.0 에즈윈" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="6948952" />
+								<input type="hidden" name="price" value="66780" />
+								<input type="hidden" name="cardPrice" value="70500" />
+							</td>
+						</tr>
+											<tr class="productList_7892983">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/983/892/img/7892983_1.jpg?shrink=80:80" alt="GIGABYTE B365M DS3H 듀러블에디션 피씨디렉트" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(7892983)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(7892983)')">GIGABYTE B365M DS3H 듀러블에디션 피씨디렉트</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">인텔(소켓1151v2)/(인텔) B365/M-ATX (22.6x20.5cm)/전원부:6페이즈/DDR4/메모리 용량:최대 64GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:3개/M.2:1개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/기가비트 LAN/UEFI/LED 헤더/RGB FUSION</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>인텔(소켓1151v2)/(인텔) B365/M-ATX (22.6x20.5cm)/전원부:6페이즈/DDR4/메모리 용량:최대 64GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:3개/M.2:1개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/기가비트 LAN/UEFI/LED 헤더/RGB FUSION</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(7892983,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(7892983)');" class="icon_style btn_review">상품의견</a>
+																																					<a href="#" onclick="showAssemblyGallery(7892983);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(7892983)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 88,330</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(7892983)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="968" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="GIGABYTE B365M DS3H 듀러블에디션 피씨디렉트" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="7892983" />
+								<input type="hidden" name="price" value="88330" />
+								<input type="hidden" name="cardPrice" value="90720" />
+							</td>
+						</tr>
+											<tr class="productList_9302775">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/775/302/img/9302775_1.jpg?shrink=80:80" alt="MSI A320M-A PRO" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(9302775)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(9302775)')">MSI A320M-A PRO</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) A320/M-ATX (23.6x18.7cm)/DDR4/메모리 용량:최대 32GB/VGA 연결:PCIe3.0 x16/그래픽 출력:DVI,HDMI/PCIe 슬롯:2개/SATA3:4개/PS/2:2개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/기가비트 LAN/UEFI/AMD APU 지원</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) A320/M-ATX (23.6x18.7cm)/DDR4/메모리 용량:최대 32GB/VGA 연결:PCIe3.0 x16/그래픽 출력:DVI,HDMI/PCIe 슬롯:2개/SATA3:4개/PS/2:2개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/기가비트 LAN/UEFI/AMD APU 지원</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(9302775,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(9302775)');" class="icon_style btn_review">상품의견</a>
+																																					<a href="#" onclick="showAssemblyGallery(9302775);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(9302775)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 60,140</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(9302775)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="MSI A320M-A PRO" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="9302775" />
+								<input type="hidden" name="price" value="60140" />
+								<input type="hidden" name="cardPrice" value="64000" />
+							</td>
+						</tr>
+											<tr class="productList_6445735">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/735/445/img/6445735_1.jpg?shrink=80:80" alt="GIGABYTE B450 AORUS ELITE 피씨디렉트" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(6445735)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(6445735)')">GIGABYTE B450 AORUS ELITE 피씨디렉트</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) B450/ATX (30.5x23.5cm)/전원부:7페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire/그래픽 출력:DVI,HDMI/PCIe 슬롯:4개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 4개/USB 3.1 Gen 1:후면 4개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/LED 헤더/RGB FUSION</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) B450/ATX (30.5x23.5cm)/전원부:7페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire/그래픽 출력:DVI,HDMI/PCIe 슬롯:4개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 4개/USB 3.1 Gen 1:후면 4개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/LED 헤더/RGB FUSION</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(6445735,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(6445735)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(6445735);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(6445735)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(6445735);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(6445735)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 119,220</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(6445735)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="GIGABYTE B450 AORUS ELITE 피씨디렉트" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="6445735" />
+								<input type="hidden" name="price" value="119220" />
+								<input type="hidden" name="cardPrice" value="122040" />
+							</td>
+						</tr>
+											<tr class="productList_6508754">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/754/508/img/6508754_1.jpg?shrink=80:80" alt="ASRock Z390 EXTREME4 에즈윈" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(6508754)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(6508754)')">ASRock Z390 EXTREME4 에즈윈</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">인텔(소켓1151v2)/(인텔) Z390/ATX (30.5x24.4cm)/전원부:12페이즈/DDR4/메모리 용량:최대 128GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X,SLI/그래픽 출력:D-SUB,HDMI,DP/PCIe 슬롯:6개/M.2:2개/SATA3:8개/PS/2:콤보 1개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/LED 라이트/LED 헤더</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>인텔(소켓1151v2)/(인텔) Z390/ATX (30.5x24.4cm)/전원부:12페이즈/DDR4/메모리 용량:최대 128GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X,SLI/그래픽 출력:D-SUB,HDMI,DP/PCIe 슬롯:6개/M.2:2개/SATA3:8개/PS/2:콤보 1개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/LED 라이트/LED 헤더</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(6508754,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(6508754)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(6508754);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(6508754)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(6508754);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(6508754)');">조립갤러리</a>
+																												<a href="/main/?controller=board&methods=getBoardList&boardSeq=291&listSeq=3747889" target="_blank" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_무보정리뷰_(6508754)');">무보정리뷰</a>
+																		</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 219,420</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(6508754)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="968" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASRock Z390 EXTREME4 에즈윈" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="6508754" />
+								<input type="hidden" name="price" value="219420" />
+								<input type="hidden" name="cardPrice" value="233000" />
+							</td>
+						</tr>
+											<tr class="productList_6051885">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/885/051/img/6051885_1.jpg?shrink=80:80" alt="ASUS EX A320M-GAMING STCOM" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(6051885)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(6051885)')">ASUS EX A320M-GAMING STCOM</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) A320/M-ATX (24.4x24.4cm)/전원부:6페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/그래픽 출력:DVI,HDMI/PCIe 슬롯:3개/M.2:1개/SATA3:4개/PS/2:2개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/LED 헤더/AURA SYNC</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) A320/M-ATX (24.4x24.4cm)/전원부:6페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/그래픽 출력:DVI,HDMI/PCIe 슬롯:3개/M.2:1개/SATA3:4개/PS/2:2개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/LED 헤더/AURA SYNC</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(6051885,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(6051885)');" class="icon_style btn_review">상품의견</a>
+																																					<a href="#" onclick="showAssemblyGallery(6051885);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(6051885)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 76,320</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(6051885)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASUS EX A320M-GAMING STCOM" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="6051885" />
+								<input type="hidden" name="price" value="76320" />
+								<input type="hidden" name="cardPrice" value="77760" />
+							</td>
+						</tr>
+											<tr class="productList_9265920">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/920/265/img/9265920_1.jpg?shrink=80:80" alt="ASRock B365M PRO4-F 디앤디컴" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(9265920)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(9265920)')">ASRock B365M PRO4-F 디앤디컴</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">인텔(소켓1151v2)/(인텔) B365/M-ATX (24.4x22.9cm)/전원부:8페이즈/DDR4/메모리 용량:최대 64GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:3개/M.2:1개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 5개/기가비트 LAN/UEFI</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>인텔(소켓1151v2)/(인텔) B365/M-ATX (24.4x22.9cm)/전원부:8페이즈/DDR4/메모리 용량:최대 64GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:3개/M.2:1개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 5개/기가비트 LAN/UEFI</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(9265920,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(9265920)');" class="icon_style btn_review">상품의견</a>
+																																													</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 88,510</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(9265920)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="968" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASRock B365M PRO4-F 디앤디컴" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="9265920" />
+								<input type="hidden" name="price" value="88510" />
+								<input type="hidden" name="cardPrice" value="90180" />
+							</td>
+						</tr>
+											<tr class="productList_6122300">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/300/122/img/6122300_1.jpg?shrink=80:80" alt="BIOSTAR A320MH 이엠텍" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(6122300)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(6122300)')">BIOSTAR A320MH 이엠텍</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) A320/M-ATX (22.6x17.4cm)/전원부:5페이즈/DDR4/메모리 용량:최대 32GB/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,HDMI/PCIe 슬롯:3개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 4개/USB 3.1 Gen 1:후면 2개/기가비트 LAN/AMD APU 지원</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) A320/M-ATX (22.6x17.4cm)/전원부:5페이즈/DDR4/메모리 용량:최대 32GB/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,HDMI/PCIe 슬롯:3개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 4개/USB 3.1 Gen 1:후면 2개/기가비트 LAN/AMD APU 지원</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(6122300,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(6122300)');" class="icon_style btn_review">상품의견</a>
+																																					<a href="#" onclick="showAssemblyGallery(6122300);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(6122300)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 53,810</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(6122300)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="BIOSTAR A320MH 이엠텍" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="6122300" />
+								<input type="hidden" name="price" value="53810" />
+								<input type="hidden" name="cardPrice" value="55080" />
+							</td>
+						</tr>
+											<tr class="productList_8497905">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/905/497/img/8497905_1.jpg?shrink=80:80" alt="GIGABYTE X570 AORUS ELITE 피씨디렉트" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(8497905)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(8497905)')">GIGABYTE X570 AORUS ELITE 피씨디렉트</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.4cm)/DDR4/메모리 용량:최대 128GB/XMP/VGA 연결:PCIe4.0 x16/GPU 기술:CrossFire/그래픽 출력:HDMI/PCIe 슬롯:4개/M.2:2개/SATA3:6개/PS/2:없음/USB 2.0:후면 4개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/LED 헤더/RGB FUSION</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.4cm)/DDR4/메모리 용량:최대 128GB/XMP/VGA 연결:PCIe4.0 x16/GPU 기술:CrossFire/그래픽 출력:HDMI/PCIe 슬롯:4개/M.2:2개/SATA3:6개/PS/2:없음/USB 2.0:후면 4개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/LED 헤더/RGB FUSION</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(8497905,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(8497905)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(8497905);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(8497905)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(8497905);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(8497905)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 273,250</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(8497905)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="GIGABYTE X570 AORUS ELITE 피씨디렉트" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="8497905" />
+								<input type="hidden" name="price" value="273250" />
+								<input type="hidden" name="cardPrice" value="279720" />
+							</td>
+						</tr>
+											<tr class="productList_7167988">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/988/167/img/7167988_1.jpg?shrink=80:80" alt="ASRock B365M PRO4 에즈윈" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(7167988)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(7167988)')">ASRock B365M PRO4 에즈윈</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">인텔(소켓1151v2)/(인텔) B365/M-ATX (24.4x22.9cm)/전원부:8페이즈/DDR4/메모리 용량:최대 64GB/XMP/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:3개/M.2:2 + 1개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 5개/기가비트 LAN/UEFI/LED 헤더</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>인텔(소켓1151v2)/(인텔) B365/M-ATX (24.4x22.9cm)/전원부:8페이즈/DDR4/메모리 용량:최대 64GB/XMP/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:3개/M.2:2 + 1개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 5개/기가비트 LAN/UEFI/LED 헤더</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(7167988,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(7167988)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(7167988);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(7167988)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(7167988);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(7167988)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 98,650</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(7167988)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="968" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASRock B365M PRO4 에즈윈" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="7167988" />
+								<input type="hidden" name="price" value="98650" />
+								<input type="hidden" name="cardPrice" value="104000" />
+							</td>
+						</tr>
+											<tr class="productList_8035732">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/732/035/img/8035732_1.jpg?shrink=80:80" alt="ASUS TUF B450-PRO GAMING STCOM" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(8035732)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(8035732)')">ASUS TUF B450-PRO GAMING STCOM</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) B450/ATX (30.5x24.4cm)/전원부:10페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:DVI,HDMI/PCIe 슬롯:5개/M.2:2개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 2개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/LED 라이트/LED 헤더/AURA SYNC</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) B450/ATX (30.5x24.4cm)/전원부:10페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:DVI,HDMI/PCIe 슬롯:5개/M.2:2개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 2개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/LED 라이트/LED 헤더/AURA SYNC</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(8035732,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(8035732)');" class="icon_style btn_review">상품의견</a>
+																																					<a href="#" onclick="showAssemblyGallery(8035732);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(8035732)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 154,760</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(8035732)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASUS TUF B450-PRO GAMING STCOM" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="8035732" />
+								<input type="hidden" name="price" value="154760" />
+								<input type="hidden" name="cardPrice" value="160490" />
+							</td>
+						</tr>
+											<tr class="productList_7170754">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/754/170/img/7170754_1.jpg?shrink=80:80" alt="ASRock B450M 스틸레전드 에즈윈" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(7170754)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(7170754)')">ASRock B450M 스틸레전드 에즈윈</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) B450/M-ATX (24.4x24.4cm)/전원부:6페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:HDMI,DP/PCIe 슬롯:3개/M.2:2개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/LED 라이트/LED 헤더/POLYCHROME</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) B450/M-ATX (24.4x24.4cm)/전원부:6페이즈/DDR4/메모리 용량:최대 64GB/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:HDMI,DP/PCIe 슬롯:3개/M.2:2개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/LED 라이트/LED 헤더/POLYCHROME</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(7170754,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(7170754)');" class="icon_style btn_review">상품의견</a>
+																																					<a href="#" onclick="showAssemblyGallery(7170754);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(7170754)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 105,370</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(7170754)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASRock B450M 스틸레전드 에즈윈" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="7170754" />
+								<input type="hidden" name="price" value="105370" />
+								<input type="hidden" name="cardPrice" value="111000" />
+							</td>
+						</tr>
+											<tr class="productList_8520741">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/741/520/img/8520741_1.jpg?shrink=80:80" alt="MSI MPG X570 게이밍 엣지 WIFI" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(8520741)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(8520741)')">MSI MPG X570 게이밍 엣지 WIFI</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.3cm)/전원부:11페이즈/DDR4/메모리 용량:최대 128GB/VGA 연결:PCIe4.0 x16/그래픽 출력:HDMI/PCIe 슬롯:5개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 2개/USB 3.1 Gen 2:후면 4개/기가비트 LAN/무선 LAN/블루투스/UEFI/LED 라이트/LED 헤더/MYSTIC LIGHT</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.3cm)/전원부:11페이즈/DDR4/메모리 용량:최대 128GB/VGA 연결:PCIe4.0 x16/그래픽 출력:HDMI/PCIe 슬롯:5개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 2개/USB 3.1 Gen 2:후면 4개/기가비트 LAN/무선 LAN/블루투스/UEFI/LED 라이트/LED 헤더/MYSTIC LIGHT</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(8520741,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(8520741)');" class="icon_style btn_review">상품의견</a>
+																																					<a href="#" onclick="showAssemblyGallery(8520741);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(8520741)');">조립갤러리</a>
+																												<a href="/main/?controller=board&methods=getBoardList&boardSeq=291&listSeq=3975365" target="_blank" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_무보정리뷰_(8520741)');">무보정리뷰</a>
+																		</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 235,270</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(8520741)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="MSI MPG X570 게이밍 엣지 WIFI" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="8520741" />
+								<input type="hidden" name="price" value="235270" />
+								<input type="hidden" name="cardPrice" value="248000" />
+							</td>
+						</tr>
+											<tr class="productList_8498229">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/229/498/img/8498229_1.jpg?shrink=80:80" alt="GIGABYTE X570 AORUS MASTER 피씨디렉트" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(8498229)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(8498229)')">GIGABYTE X570 AORUS MASTER 피씨디렉트</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.4cm)/DDR4/메모리 용량:최대 128GB/XMP/VGA 연결:PCIe4.0 x16/GPU 기술:CrossFire,SLI/PCIe 슬롯:4개/M.2:3개/SATA3:6개/PS/2:없음/USB 2.0:후면 4개/USB 3.1 Gen 1:후면 3개/USB 3.1 Gen 2:후면 3개/기가비트 LAN/듀얼 LAN/무선 LAN/블루투스/UEFI/AMD APU 지원/LED 라이트/LED 헤더/RGB FUSION</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.4cm)/DDR4/메모리 용량:최대 128GB/XMP/VGA 연결:PCIe4.0 x16/GPU 기술:CrossFire,SLI/PCIe 슬롯:4개/M.2:3개/SATA3:6개/PS/2:없음/USB 2.0:후면 4개/USB 3.1 Gen 1:후면 3개/USB 3.1 Gen 2:후면 3개/기가비트 LAN/듀얼 LAN/무선 LAN/블루투스/UEFI/AMD APU 지원/LED 라이트/LED 헤더/RGB FUSION</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(8498229,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(8498229)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(8498229);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(8498229)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(8498229);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(8498229)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 497,370</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(8498229)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="GIGABYTE X570 AORUS MASTER 피씨디렉트" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="8498229" />
+								<input type="hidden" name="price" value="497370" />
+								<input type="hidden" name="cardPrice" value="509480" />
+							</td>
+						</tr>
+											<tr class="productList_6891775">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/775/891/img/6891775_1.jpg?shrink=80:80" alt="ASRock H310CM-HDV Plus 에즈윈" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(6891775)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(6891775)')">ASRock H310CM-HDV Plus 에즈윈</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">인텔(소켓1151v2)/(인텔) H310/M-ATX (22.6x18.8cm)/전원부:4페이즈/DDR4/메모리 용량:최대 32GB/XMP/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:3개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 4개/USB 3.1 Gen 1:후면 2개/기가비트 LAN/UEFI</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>인텔(소켓1151v2)/(인텔) H310/M-ATX (22.6x18.8cm)/전원부:4페이즈/DDR4/메모리 용량:최대 32GB/XMP/VGA 연결:PCIe3.0 x16/그래픽 출력:D-SUB,DVI,HDMI/PCIe 슬롯:3개/SATA3:4개/PS/2:콤보 1개/USB 2.0:후면 4개/USB 3.1 Gen 1:후면 2개/기가비트 LAN/UEFI</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																													<span class="icon_style md_recom">MD추천</span>
+																		</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(6891775,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(6891775)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(6891775);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(6891775)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(6891775);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(6891775)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 76,320</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(6891775)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="968" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASRock H310CM-HDV Plus 에즈윈" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="6891775" />
+								<input type="hidden" name="price" value="76320" />
+								<input type="hidden" name="cardPrice" value="79500" />
+							</td>
+						</tr>
+											<tr class="productList_8524905">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/905/524/img/8524905_1.jpg?shrink=80:80" alt="MSI X570-A PRO" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(8524905)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(8524905)')">MSI X570-A PRO</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.3cm)/전원부:11페이즈/DDR4/메모리 용량:최대 128GB/VGA 연결:PCIe4.0 x16/그래픽 출력:HDMI/PCIe 슬롯:5개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/AMD APU 지원/LED 헤더/MYSTIC LIGHT</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.3cm)/전원부:11페이즈/DDR4/메모리 용량:최대 128GB/VGA 연결:PCIe4.0 x16/그래픽 출력:HDMI/PCIe 슬롯:5개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/UEFI/AMD APU 지원/LED 헤더/MYSTIC LIGHT</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																													<span class="icon_style md_recom">MD추천</span>
+																		</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(8524905,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(8524905)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(8524905);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(8524905)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(8524905);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(8524905)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 205,700</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(8524905)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="MSI X570-A PRO" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="8524905" />
+								<input type="hidden" name="price" value="205700" />
+								<input type="hidden" name="cardPrice" value="212550" />
+							</td>
+						</tr>
+											<tr class="productList_8507295">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/295/507/img/8507295_1.jpg?shrink=80:80" alt="ASRock X570 Taichi 에즈윈" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(8507295)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(8507295)')">ASRock X570 Taichi 에즈윈</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.4cm)/전원부:14페이즈/DDR4/메모리 용량:최대 128GB/VGA 연결:PCIe4.0 x16/GPU 기술:CrossFire X,SLI/그래픽 출력:HDMI/PCIe 슬롯:5개/M.2:3 + 1개/SATA3:8개/PS/2:콤보 1개/USB 3.1 Gen 1:후면 6개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/무선 LAN/블루투스/UEFI/AMD APU 지원/LED 라이트/POLYCHROME</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.4cm)/전원부:14페이즈/DDR4/메모리 용량:최대 128GB/VGA 연결:PCIe4.0 x16/GPU 기술:CrossFire X,SLI/그래픽 출력:HDMI/PCIe 슬롯:5개/M.2:3 + 1개/SATA3:8개/PS/2:콤보 1개/USB 3.1 Gen 1:후면 6개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/무선 LAN/블루투스/UEFI/AMD APU 지원/LED 라이트/POLYCHROME</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(8507295,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(8507295)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(8507295);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(8507295)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(8507295);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(8507295)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 424,000</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(8507295)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASRock X570 Taichi 에즈윈" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="8507295" />
+								<input type="hidden" name="price" value="424000" />
+								<input type="hidden" name="cardPrice" value="447500" />
+							</td>
+						</tr>
+											<tr class="productList_6508722">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/722/508/img/6508722_1.jpg?shrink=80:80" alt="ASUS TUF Z390-PLUS GAMING 아이보라" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(6508722)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(6508722)')">ASUS TUF Z390-PLUS GAMING 아이보라</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">인텔(소켓1151v2)/(인텔) Z390/ATX (30.5x24.4cm)/DDR4/메모리 용량:최대 64GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:HDMI,DP/PCIe 슬롯:6개/M.2:2개/SATA3:6개/PS/2:2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/LED 라이트/LED 헤더/AURA SYNC</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>인텔(소켓1151v2)/(인텔) Z390/ATX (30.5x24.4cm)/DDR4/메모리 용량:최대 64GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire X/그래픽 출력:HDMI,DP/PCIe 슬롯:6개/M.2:2개/SATA3:6개/PS/2:2개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/LED 라이트/LED 헤더/AURA SYNC</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(6508722,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(6508722)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(6508722);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(6508722)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(6508722);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(6508722)');">조립갤러리</a>
+																												<a href="/main/?controller=board&methods=getBoardList&boardSeq=291&listSeq=3747891" target="_blank" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_무보정리뷰_(6508722)');">무보정리뷰</a>
+																		</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 217,330</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(6508722)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="968" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASUS TUF Z390-PLUS GAMING 아이보라" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="6508722" />
+								<input type="hidden" name="price" value="217330" />
+								<input type="hidden" name="cardPrice" value="222480" />
+							</td>
+						</tr>
+											<tr class="productList_8511729">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/729/511/img/8511729_1.jpg?shrink=80:80" alt="ASUS PRIME X570-P/CSM STCOM" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(8511729)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(8511729)')">ASUS PRIME X570-P/CSM STCOM</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.4cm)/전원부:8+4페이즈/DDR4/메모리 용량:최대 128GB/VGA 연결:PCIe4.0 x16/GPU 기술:CrossFire X/그래픽 출력:HDMI/PCIe 슬롯:5개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 2개/USB 3.1 Gen 2:후면 4개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/LED 헤더/AURA SYNC</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.4cm)/전원부:8+4페이즈/DDR4/메모리 용량:최대 128GB/VGA 연결:PCIe4.0 x16/GPU 기술:CrossFire X/그래픽 출력:HDMI/PCIe 슬롯:5개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 2개/USB 3.1 Gen 2:후면 4개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/LED 헤더/AURA SYNC</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(8511729,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(8511729)');" class="icon_style btn_review">상품의견</a>
+																																					<a href="#" onclick="showAssemblyGallery(8511729);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(8511729)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 235,270</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(8511729)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASUS PRIME X570-P/CSM STCOM" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="8511729" />
+								<input type="hidden" name="price" value="235270" />
+								<input type="hidden" name="cardPrice" value="240840" />
+							</td>
+						</tr>
+											<tr class="productList_6508252">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/252/508/img/6508252_1.jpg?shrink=80:80" alt="MSI MPG Z390 게이밍 엣지 AC" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(6508252)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(6508252)')">MSI MPG Z390 게이밍 엣지 AC</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">인텔(소켓1151v2)/(인텔) Z390/ATX (30.4x24.3cm)/전원부:12페이즈/DDR4/메모리 용량:최대 128GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire,SLI/그래픽 출력:HDMI,DP/PCIe 슬롯:6개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 2개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/무선 LAN/블루투스/UEFI/LED 라이트/MYSTIC LIGHT</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>인텔(소켓1151v2)/(인텔) Z390/ATX (30.4x24.3cm)/전원부:12페이즈/DDR4/메모리 용량:최대 128GB/XMP/옵테인/VGA 연결:PCIe3.0 x16/GPU 기술:CrossFire,SLI/그래픽 출력:HDMI,DP/PCIe 슬롯:6개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 2.0:후면 2개/USB 3.1 Gen 1:후면 2개/USB 3.1 Gen 2:후면 2개/기가비트 LAN/무선 LAN/블루투스/UEFI/LED 라이트/MYSTIC LIGHT</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(6508252,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(6508252)');" class="icon_style btn_review">상품의견</a>
+																												<a href="#" onclick="showVideoChannel(6508252);" onmousedown="_trkEventLog('PC견적메인_상품리스트_동영상_(6508252)');" class="icon_style">유튜브채널</a>
+																												<a href="#" onclick="showAssemblyGallery(6508252);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(6508252)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 234,260</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(6508252)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="968" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="MSI MPG Z390 게이밍 엣지 AC" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="6508252" />
+								<input type="hidden" name="price" value="234260" />
+								<input type="hidden" name="cardPrice" value="248000" />
+							</td>
+						</tr>
+											<tr class="productList_8511207">
+
+							<td class="goods_img">
+								<img src="//img.danawa.com/prod_img/500000/207/511/img/8511207_1.jpg?shrink=80:80" alt="ASUS PRIME X570-PRO/CSM STCOM" />
+								<!-- 선택시 btn_compare_on -->
+								<a class="btn_compare" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품비교체크박스')"><span class="icon"></span><span class="hide_txt">비교</span></a>
+								<span class="compare_txt">상품비교</span>
+							</td>
+							<td class="title_price">
+								<p class="subject"><a href="javascript:productInfoPopup(8511207)" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품명_(8511207)')">ASUS PRIME X570-PRO/CSM STCOM</a></p>
+								<!-- spec_wrap -->
+								<div class="spec_wrap">
+									<div class="spec_bg">
+										<a href="#" class="spec" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품정보')">AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.4cm)/DDR4/메모리 용량:최대 128GB/VGA 연결:PCIe4.0 x16/GPU 기술:CrossFire X,SLI/그래픽 출력:HDMI,DP/PCIe 슬롯:6개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 4개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/LED 헤더/AURA SYNC</a>
+										<div class="layer_comm spec_info" style="display:none;left:0px;right:0px;top:auto;margin:auto;">
+											<h4 class="lc_title">상품정보</h4>
+											<div class="spec_info_contents">
+												<p>AMD(소켓AM4)/(AMD) X570/ATX (30.5x24.4cm)/DDR4/메모리 용량:최대 128GB/VGA 연결:PCIe4.0 x16/GPU 기술:CrossFire X,SLI/그래픽 출력:HDMI,DP/PCIe 슬롯:6개/M.2:2개/SATA3:6개/PS/2:콤보 1개/USB 3.1 Gen 1:후면 4개/USB 3.1 Gen 2:후면 4개/기가비트 LAN/UEFI/AMD APU 지원/LED 라이트/LED 헤더/AURA SYNC</p>
+											</div>
+											<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+										</div>
+									</div>
+								</div>
+								<!--// spec_wrap -->
+								<!-- addition_wrap -->
+								<div class="addition_wrap">
+									<div class="service_badge">
+																											</div>
+									<div class="review_btn_area">
+																			<a href="javascript:productInfoPopup(8511207,'community');" onmousedown="_trkEventLog('PC견적메인_상품리스트_상품의견_(8511207)');" class="icon_style btn_review">상품의견</a>
+																																					<a href="#" onclick="showAssemblyGallery(8511207);" class="icon_style"  onmousedown="_trkEventLog('PC견적메인_상품리스트_조립갤러리_(8511207)');">조립갤러리</a>
+																											</div>
+								</div>
+								<!--// addition_wrap -->
+																							</td>
+							<td class="rig_line">
+								<p class="low_price"><span class="prod_price"> 330,870</span>원</p>
+								<a href="#" class="btn_choice2 wishAction"  onmousedown="_trkEventLog('PC견적메인_상품리스트_담기_(8511207)')">담기<span class="icon"></span></a>
+								<input type="hidden" name="type" value="1" />
+								<input type="hidden" name="category" value="메인보드" />
+								<input type="hidden" name="linkCategorySeq" value="875" />
+								<input type="hidden" name="categoryDepth" value="2" />
+								<input type="hidden" name="categorySeq1" value="861" />
+								<input type="hidden" name="categorySeq2" value="875" />
+								<input type="hidden" name="categorySeq3" value="969" />
+								<input type="hidden" name="categorySeq4" value="0" />
+								<input type="hidden" name="name" value="ASUS PRIME X570-PRO/CSM STCOM" />
+								<input type="hidden" name="quantity" value="1" />
+								<input type="hidden" name="code" value="8511207" />
+								<input type="hidden" name="price" value="330870" />
+								<input type="hidden" name="cardPrice" value="337140" />
+							</td>
+						</tr>
+										</tbody>
+				</table>
+			</div>
+			<!--// scroll_box -->
+
+			<!-- 201809 .layer_comm 샵다나와 공통 레이어 .lcm_assemble 조립갤러리 레이어 조립갤러리 버튼 클릭 시 위치값 조정 -->
+			<div class="layer_comm lcm_assemble" style="display:none; left:0; right:0px; top:auto; bottom:330px; margin:auto; overflow:hidden;"></div>
+			<!--// 201809 .layer_comm 샵다나와 공통 레이어 .lcm_assemble 조립갤러리 레이어 -->
+
+			<!-- v180515 .layer_comm 샵다나와 공통 레이어 .lcm_video 비디오 레이어 동영상 버튼 클릭 시 위치값 조정 -->
+			<div class="layer_comm lcm_video" style="display:none; left:0; right:0; top:auto; bottom:330px; margin:auto">
+				<h4 class="lc_title">유튜브채널</h4>
+				<div class="youtube_channel">
+					<!-- .lv_contents 비디오 콘텐츠 -->
+					<div class="lv_contents">
+						<div class="lv_title">
+							<span>샵다나와에서 준비한 PC, 게임 관련 영상 컨텐츠를 시청할 수 있습니다.</span>
+						</div>
+						<ul class="lv_list" id="video_list">
+						</ul>
+					</div>
+					<!--// .lv_contents 비디오 콘텐츠 -->
+					<!-- v180823 .rec_channel 추천영상 -->
+					<div class="rec_channel">
+						<strong class="rc_title">추천영상</strong>
+						<ul class="rc_list" id="video_recommend_list">
+						</ul>
+					</div>
+					<!--// .rec_channel 추천영상 -->
+				</div>
+				<button class="btn_close" type="button"><i aria-hidden="true" class="ico_market ico_close"></i><span class="blind">닫기</span></button>
+			</div>
+			<!--// v180515 .layer_comm 샵다나와 공통 레이어 .lcm_video 비디오 레이어 -->
+
+						<!-- btm_box -->
+			<div class="btm_box">
+								<div class="btm_box_wrap">
+					<p class="subject" onmouseover="showPBTooltip(3415638);" onmouseout="hidePBTooltip(3415638);">
+						프리미엄 조립 + 1년 전국 무상 방문 출장AS + 30일 연장 (1대분)					</p>
+					<p class="rbtn productList_3415638" onmouseover="showPBTooltip(3415638);" onmouseout="hidePBTooltip(3415638);">
+						<a class="btn_choice2 wishAction" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_조립비담기_(3415638)')">담기<span class="icon"></span></a>
+						<input type="hidden" name="type" value="2" />
+						<input type="hidden" name="category" value="조립비" />
+						<input type="hidden" name="linkCategorySeq" value="11101" />
+						<input type="hidden" name="categorySeq1" value="860" />
+						<input type="hidden" name="categorySeq2" value="865" />
+						<input type="hidden" name="categorySeq3" value="10086" />
+						<input type="hidden" name="categorySeq4" value="11101" />
+						<input type="hidden" name="name" value="프리미엄 조립 + 1년 전국 무상 방문 출장AS + 30일 연장 (1대분)" />
+						<input type="hidden" name="quantity" value="1" />
+						<input type="hidden" name="code" value="3415638" />
+						<input type="hidden" name="price" value="48000" />
+						<input type="hidden" name="cardPrice" value="45000" />
+					</p>
+										<!-- 말풍선 레이어 -->
+					<div class="help_layer layer_type1 desc_3415638" style="display:none;">
+						<span class="acc icon_dot"></span>
+						<ul class="text_list">
+						<li class="text">케이블타이 선정리</li><li class="text">부팅 테스트 & 바이오스 셋팅</li><li class="text">출장 기사 선 배정</li><li class="text">배송사고 확인 시 해당상품 선 출고</li><li class="text">프리미엄 공구세트 제공</li><li class="text">고급 멀티탭 기본 제공</li><li class="text">무상 방문 출장AS 30일 연장</li>						</ul>
+					</div>
+									</div>
+								<div class="btm_box_wrap">
+					<p class="subject" onmouseover="showPBTooltip(3316772);" onmouseout="hidePBTooltip(3316772);">
+						기본조립 + 1년 전국 무상 방문 출장AS (1대분)					</p>
+					<p class="rbtn productList_3316772" onmouseover="showPBTooltip(3316772);" onmouseout="hidePBTooltip(3316772);">
+						<a class="btn_choice2 wishAction" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_조립비담기_(3316772)')">담기<span class="icon"></span></a>
+						<input type="hidden" name="type" value="2" />
+						<input type="hidden" name="category" value="조립비" />
+						<input type="hidden" name="linkCategorySeq" value="11101" />
+						<input type="hidden" name="categorySeq1" value="860" />
+						<input type="hidden" name="categorySeq2" value="865" />
+						<input type="hidden" name="categorySeq3" value="10086" />
+						<input type="hidden" name="categorySeq4" value="11101" />
+						<input type="hidden" name="name" value="기본조립 + 1년 전국 무상 방문 출장AS (1대분)" />
+						<input type="hidden" name="quantity" value="1" />
+						<input type="hidden" name="code" value="3316772" />
+						<input type="hidden" name="price" value="32000" />
+						<input type="hidden" name="cardPrice" value="32000" />
+					</p>
+										<!-- 말풍선 레이어 -->
+					<div class="help_layer layer_type2 desc_3316772" style="display:none;">
+						<span class="acc icon_dot"></span>
+						<ul class="text_list">
+						<li class="text">기본 선정리</li><li class="text">부팅 테스트 </li><li class="text">바이오스 셋팅</li><li class="text">1년 전국 무상방문 출장 서비스 제공</li>						</ul>
+					</div>
+									</div>
+								<div class="btm_box_wrap">
+					<p class="subject" onmouseover="showPBTooltip(1363731);" onmouseout="hidePBTooltip(1363731);">
+						기본조립 + 2년 전국 무상 방문 출장AS (1대분)					</p>
+					<p class="rbtn productList_1363731" onmouseover="showPBTooltip(1363731);" onmouseout="hidePBTooltip(1363731);">
+						<a class="btn_choice2 wishAction" href="#" onmousedown="_trkEventLog('PC견적메인_상품리스트_조립비담기_(1363731)')">담기<span class="icon"></span></a>
+						<input type="hidden" name="type" value="2" />
+						<input type="hidden" name="category" value="조립비" />
+						<input type="hidden" name="linkCategorySeq" value="11101" />
+						<input type="hidden" name="categorySeq1" value="860" />
+						<input type="hidden" name="categorySeq2" value="865" />
+						<input type="hidden" name="categorySeq3" value="10086" />
+						<input type="hidden" name="categorySeq4" value="11101" />
+						<input type="hidden" name="name" value="기본조립 + 2년 전국 무상 방문 출장AS (1대분)" />
+						<input type="hidden" name="quantity" value="1" />
+						<input type="hidden" name="code" value="1363731" />
+						<input type="hidden" name="price" value="51000" />
+						<input type="hidden" name="cardPrice" value="45000" />
+					</p>
+										<!-- 말풍선 레이어 -->
+					<div class="help_layer layer_type3 desc_1363731" style="display:none;">
+						<span class="acc icon_dot"></span>
+						<ul class="text_list">
+						<li class="text">기본 선정리</li><li class="text">부팅 테스트 </li><li class="text">바이오스 셋팅</li><li class="text">2년 전국 무상방문 출장 서비스 제공</li>						</ul>
+					</div>
+									</div>
+							</div>
+			<!--// btm_box -->
+			
+			<!-- paging_estimate -->
+			<div class="paging_estimate">
+				<div class="num_nav_wrap"><div class="number_wrap"><a href='?&controller=estimateMain&methods=product&categorySeq=875&categoryDepth=2&marketPlaceSeq=16&sellerSeq=0&pseq=2&name=&listPerPage=30&attribute=&makerCode=&brandCode=&serviceSectionSeq=0&productRegisterAreaGroupSeq=0&ignoreKeywordYN=N&preparationSale=&tabOrderbyYn=N&suggestName=&displayOptionCount=3&categoryName=%EB%A9%94%EC%9D%B8%EB%B3%B4%EB%93%9C&productRegisterAreaSeq=2&categorySeq1=861&categorySeq2=875&categorySeq3=0&categorySeq4=0&selectOptionList[]=499&selectOptionList[]=500&selectOptionList[]=504&selectOptionList[]=506&selectOptionList[]=509&selectOptionList[]=510&selectOptionList[]=8856&selectOptionList[]=512&selectOptionList[]=6204&selectOptionList[]=24942&selectOptionList[]=519&selectOptionList[]=6092&selectOptionList[]=6205&selectOptionList[]=21207&goodsCount=1226&page=1' class="num now_on moveProductList">1</a><a href='?&controller=estimateMain&methods=product&categorySeq=875&categoryDepth=2&marketPlaceSeq=16&sellerSeq=0&pseq=2&name=&listPerPage=30&attribute=&makerCode=&brandCode=&serviceSectionSeq=0&productRegisterAreaGroupSeq=0&ignoreKeywordYN=N&preparationSale=&tabOrderbyYn=N&suggestName=&displayOptionCount=3&categoryName=%EB%A9%94%EC%9D%B8%EB%B3%B4%EB%93%9C&productRegisterAreaSeq=2&categorySeq1=861&categorySeq2=875&categorySeq3=0&categorySeq4=0&selectOptionList[]=499&selectOptionList[]=500&selectOptionList[]=504&selectOptionList[]=506&selectOptionList[]=509&selectOptionList[]=510&selectOptionList[]=8856&selectOptionList[]=512&selectOptionList[]=6204&selectOptionList[]=24942&selectOptionList[]=519&selectOptionList[]=6092&selectOptionList[]=6205&selectOptionList[]=21207&goodsCount=1226&page=2' class="num moveProductList">2</a><a href='?&controller=estimateMain&methods=product&categorySeq=875&categoryDepth=2&marketPlaceSeq=16&sellerSeq=0&pseq=2&name=&listPerPage=30&attribute=&makerCode=&brandCode=&serviceSectionSeq=0&productRegisterAreaGroupSeq=0&ignoreKeywordYN=N&preparationSale=&tabOrderbyYn=N&suggestName=&displayOptionCount=3&categoryName=%EB%A9%94%EC%9D%B8%EB%B3%B4%EB%93%9C&productRegisterAreaSeq=2&categorySeq1=861&categorySeq2=875&categorySeq3=0&categorySeq4=0&selectOptionList[]=499&selectOptionList[]=500&selectOptionList[]=504&selectOptionList[]=506&selectOptionList[]=509&selectOptionList[]=510&selectOptionList[]=8856&selectOptionList[]=512&selectOptionList[]=6204&selectOptionList[]=24942&selectOptionList[]=519&selectOptionList[]=6092&selectOptionList[]=6205&selectOptionList[]=21207&goodsCount=1226&page=3' class="num moveProductList">3</a><a href='?&controller=estimateMain&methods=product&categorySeq=875&categoryDepth=2&marketPlaceSeq=16&sellerSeq=0&pseq=2&name=&listPerPage=30&attribute=&makerCode=&brandCode=&serviceSectionSeq=0&productRegisterAreaGroupSeq=0&ignoreKeywordYN=N&preparationSale=&tabOrderbyYn=N&suggestName=&displayOptionCount=3&categoryName=%EB%A9%94%EC%9D%B8%EB%B3%B4%EB%93%9C&productRegisterAreaSeq=2&categorySeq1=861&categorySeq2=875&categorySeq3=0&categorySeq4=0&selectOptionList[]=499&selectOptionList[]=500&selectOptionList[]=504&selectOptionList[]=506&selectOptionList[]=509&selectOptionList[]=510&selectOptionList[]=8856&selectOptionList[]=512&selectOptionList[]=6204&selectOptionList[]=24942&selectOptionList[]=519&selectOptionList[]=6092&selectOptionList[]=6205&selectOptionList[]=21207&goodsCount=1226&page=4' class="num moveProductList">4</a><a href='?&controller=estimateMain&methods=product&categorySeq=875&categoryDepth=2&marketPlaceSeq=16&sellerSeq=0&pseq=2&name=&listPerPage=30&attribute=&makerCode=&brandCode=&serviceSectionSeq=0&productRegisterAreaGroupSeq=0&ignoreKeywordYN=N&preparationSale=&tabOrderbyYn=N&suggestName=&displayOptionCount=3&categoryName=%EB%A9%94%EC%9D%B8%EB%B3%B4%EB%93%9C&productRegisterAreaSeq=2&categorySeq1=861&categorySeq2=875&categorySeq3=0&categorySeq4=0&selectOptionList[]=499&selectOptionList[]=500&selectOptionList[]=504&selectOptionList[]=506&selectOptionList[]=509&selectOptionList[]=510&selectOptionList[]=8856&selectOptionList[]=512&selectOptionList[]=6204&selectOptionList[]=24942&selectOptionList[]=519&selectOptionList[]=6092&selectOptionList[]=6205&selectOptionList[]=21207&goodsCount=1226&page=5' class="num moveProductList">5</a><a href='?&controller=estimateMain&methods=product&categorySeq=875&categoryDepth=2&marketPlaceSeq=16&sellerSeq=0&pseq=2&name=&listPerPage=30&attribute=&makerCode=&brandCode=&serviceSectionSeq=0&productRegisterAreaGroupSeq=0&ignoreKeywordYN=N&preparationSale=&tabOrderbyYn=N&suggestName=&displayOptionCount=3&categoryName=%EB%A9%94%EC%9D%B8%EB%B3%B4%EB%93%9C&productRegisterAreaSeq=2&categorySeq1=861&categorySeq2=875&categorySeq3=0&categorySeq4=0&selectOptionList[]=499&selectOptionList[]=500&selectOptionList[]=504&selectOptionList[]=506&selectOptionList[]=509&selectOptionList[]=510&selectOptionList[]=8856&selectOptionList[]=512&selectOptionList[]=6204&selectOptionList[]=24942&selectOptionList[]=519&selectOptionList[]=6092&selectOptionList[]=6205&selectOptionList[]=21207&goodsCount=1226&page=6' class="num moveProductList">6</a><a href='?&controller=estimateMain&methods=product&categorySeq=875&categoryDepth=2&marketPlaceSeq=16&sellerSeq=0&pseq=2&name=&listPerPage=30&attribute=&makerCode=&brandCode=&serviceSectionSeq=0&productRegisterAreaGroupSeq=0&ignoreKeywordYN=N&preparationSale=&tabOrderbyYn=N&suggestName=&displayOptionCount=3&categoryName=%EB%A9%94%EC%9D%B8%EB%B3%B4%EB%93%9C&productRegisterAreaSeq=2&categorySeq1=861&categorySeq2=875&categorySeq3=0&categorySeq4=0&selectOptionList[]=499&selectOptionList[]=500&selectOptionList[]=504&selectOptionList[]=506&selectOptionList[]=509&selectOptionList[]=510&selectOptionList[]=8856&selectOptionList[]=512&selectOptionList[]=6204&selectOptionList[]=24942&selectOptionList[]=519&selectOptionList[]=6092&selectOptionList[]=6205&selectOptionList[]=21207&goodsCount=1226&page=7' class="num moveProductList">7</a><a href='?&controller=estimateMain&methods=product&categorySeq=875&categoryDepth=2&marketPlaceSeq=16&sellerSeq=0&pseq=2&name=&listPerPage=30&attribute=&makerCode=&brandCode=&serviceSectionSeq=0&productRegisterAreaGroupSeq=0&ignoreKeywordYN=N&preparationSale=&tabOrderbyYn=N&suggestName=&displayOptionCount=3&categoryName=%EB%A9%94%EC%9D%B8%EB%B3%B4%EB%93%9C&productRegisterAreaSeq=2&categorySeq1=861&categorySeq2=875&categorySeq3=0&categorySeq4=0&selectOptionList[]=499&selectOptionList[]=500&selectOptionList[]=504&selectOptionList[]=506&selectOptionList[]=509&selectOptionList[]=510&selectOptionList[]=8856&selectOptionList[]=512&selectOptionList[]=6204&selectOptionList[]=24942&selectOptionList[]=519&selectOptionList[]=6092&selectOptionList[]=6205&selectOptionList[]=21207&goodsCount=1226&page=8' class="num moveProductList">8</a><a href='?&controller=estimateMain&methods=product&categorySeq=875&categoryDepth=2&marketPlaceSeq=16&sellerSeq=0&pseq=2&name=&listPerPage=30&attribute=&makerCode=&brandCode=&serviceSectionSeq=0&productRegisterAreaGroupSeq=0&ignoreKeywordYN=N&preparationSale=&tabOrderbyYn=N&suggestName=&displayOptionCount=3&categoryName=%EB%A9%94%EC%9D%B8%EB%B3%B4%EB%93%9C&productRegisterAreaSeq=2&categorySeq1=861&categorySeq2=875&categorySeq3=0&categorySeq4=0&selectOptionList[]=499&selectOptionList[]=500&selectOptionList[]=504&selectOptionList[]=506&selectOptionList[]=509&selectOptionList[]=510&selectOptionList[]=8856&selectOptionList[]=512&selectOptionList[]=6204&selectOptionList[]=24942&selectOptionList[]=519&selectOptionList[]=6092&selectOptionList[]=6205&selectOptionList[]=21207&goodsCount=1226&page=9' class="num moveProductList">9</a><a href='?&controller=estimateMain&methods=product&categorySeq=875&categoryDepth=2&marketPlaceSeq=16&sellerSeq=0&pseq=2&name=&listPerPage=30&attribute=&makerCode=&brandCode=&serviceSectionSeq=0&productRegisterAreaGroupSeq=0&ignoreKeywordYN=N&preparationSale=&tabOrderbyYn=N&suggestName=&displayOptionCount=3&categoryName=%EB%A9%94%EC%9D%B8%EB%B3%B4%EB%93%9C&productRegisterAreaSeq=2&categorySeq1=861&categorySeq2=875&categorySeq3=0&categorySeq4=0&selectOptionList[]=499&selectOptionList[]=500&selectOptionList[]=504&selectOptionList[]=506&selectOptionList[]=509&selectOptionList[]=510&selectOptionList[]=8856&selectOptionList[]=512&selectOptionList[]=6204&selectOptionList[]=24942&selectOptionList[]=519&selectOptionList[]=6092&selectOptionList[]=6205&selectOptionList[]=21207&goodsCount=1226&page=10' class="num moveProductList">10</a></div><a href='?&controller=estimateMain&methods=product&categorySeq=875&categoryDepth=2&marketPlaceSeq=16&sellerSeq=0&pseq=2&name=&listPerPage=30&attribute=&makerCode=&brandCode=&serviceSectionSeq=0&productRegisterAreaGroupSeq=0&ignoreKeywordYN=N&preparationSale=&tabOrderbyYn=N&suggestName=&displayOptionCount=3&categoryName=%EB%A9%94%EC%9D%B8%EB%B3%B4%EB%93%9C&productRegisterAreaSeq=2&categorySeq1=861&categorySeq2=875&categorySeq3=0&categorySeq4=0&selectOptionList[]=499&selectOptionList[]=500&selectOptionList[]=504&selectOptionList[]=506&selectOptionList[]=509&selectOptionList[]=510&selectOptionList[]=8856&selectOptionList[]=512&selectOptionList[]=6204&selectOptionList[]=24942&selectOptionList[]=519&selectOptionList[]=6092&selectOptionList[]=6205&selectOptionList[]=21207&goodsCount=1226&page=11' class="edge_nav nav_next moveProductList"></a></div>			</div>
+			<!--// paging_estimate -->
+
+		</div>
+		<!--// list_tbl_wrap admd_tbl_wrap -->
+
+	</div>
+	<!--// text_img_view absolute_prod -->
+
+	<!--// text_img_view -->
+	<script type="text/javascript">
+	<!-- 버튼 클릭량 체크 -->
+	$(".number_wrap > a").click(function(){
+		_trkEventLog('PC견적메인_상품리스트_페이지('+$(this).text()+')');
+	});
+	</script>
+	<script src="//static.danawa.com/globaljs/static/logger_trackEvent.js"></script>
+	<script src="//static.danawa.com/globaljs/static/Insight_WebAnalytics_06.shop.danawa.com.js"></script>
+</div>
+</body>
+</html>
